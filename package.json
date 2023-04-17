@@ -1,5 +1,6 @@
 {
   "name": "revsum",
+  "name": "react-header",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +14,12 @@
     "react-countup": "^6.4.2",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
+    "react-avatar-editor": "^13.0.0",
+    "react-bootstrap": "^2.7.2",
+    "react-countup": "^6.4.2",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-multi-carousel": "^2.8.3",
     "react-router-dom": "^6.10.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
