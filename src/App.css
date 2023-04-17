@@ -55,5 +55,14 @@ body{
 
 .back{
 
-  background-image: linear-gradient( to bottom right,rgb(88, 19, 19),rgb(20, 21, 20),rgb(255, 0, 0));
+  background-image: linear-gradient( to bottom right,rgb(88, 19, 19),rgb(20, 21, 20),rgb(108, 14,14));
 }
+ .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+   color: rgba(206, 6, 6, 0.9);}
+ .navbar-nav .nav-link:not(.active) {
+  color: white; /* Set the text color to white for non-active tabs */
+}
+
+/* .navbar-nav .nav-link:not(.active):hover { */
+  /* color: rgb(208, 24, 24); Set the text color to gray for non-active tabs on hover */
+/* } */

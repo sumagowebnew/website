@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import grp_img from "./images/Frame with photo.png";
 import group_img from "./images/Img2.png";
 import grp_img1 from "./photos/grp2.png";
+import imp from "./images/Group 3091.png";
 import CountUp from "react-countup";
 import { AiOutlineRightCircle } from "react-icons/ai";
 import "../Components/Home.css";
@@ -25,7 +26,7 @@ export default function Home() {
   return (
     <>
       <div className="row">
-        <div className="col-2" style={{marginTop:"10rem"}}>
+        <div className="col-2" style={{ marginTop: "10rem" }}>
           <div className="d-flex justify-content-start">
             <h6 className="text-light follow ms-2">Follow Us</h6>
           </div>
@@ -35,18 +36,42 @@ export default function Home() {
             style={{ color: "white", width: "5rem" }}
           /> */}
           <div className="d-flex flex-column">
-            <img
-              src={facebook}
-              className="img-fluid ms-4 mt-2"
-              width="27.5rem"
-            />
-            <img src={insta} className="img-fluid ms-4 mt-2" width="27.5rem" />
-            <img src={link} className="img-fluid ms-4 mt-2" width="27.5rem" />
-            <img
-              src={youtube}
-              className="img-fluid ms-4 mt-2"
-              width="27.5rem"
-            />
+            <a
+              href="https://www.facebook.com/sumagoinfotech/"
+              className="align-self-start"
+            >
+              <img
+                src={facebook}
+                className="img-fluid ms-4 mt-2"
+                width="27.5rem"
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/sumago_infotech/"
+              className="align-self-start"
+            >
+              <img
+                src={insta}
+                className="img-fluid ms-4 mt-2"
+                width="27.5rem"
+              />
+            </a>
+            <a
+              href="https://in.linkedin.com/company/sumago-infotech-pvt-ltd"
+              className="align-self-start"
+            >
+              <img src={link} className="img-fluid ms-4 mt-2" width="27.5rem" />
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UCoUCNHO1wXI92HnEmNtIkEg"
+              className="align-self-start"
+            >
+              <img
+                src={youtube}
+                className="img-fluid ms-4 mt-2"
+                width="27.5rem"
+              />
+            </a>
           </div>
         </div>
         <div className="col-10">
@@ -55,15 +80,19 @@ export default function Home() {
               <div class="col-md-6  mt-5">
                 <h1> BETTER SOLUTIONS FOR YOUR BUSINESS</h1>
                 <br />
-                <h5 className="text-start">
+                <p className="text-start">
                   Lorem ipsum is simply dummy text of the printing
                   <br />
                   and typesetting industry.Lorem ipsum is simply
                   <br />
                   dummy text of the printing and typesetting industry.
-                </h5>
+                </p>
                 <br />
-                <button type="button" class="btn btn-danger btn-sm"style={{backgroundColor:"#E21818"}}>
+                <button
+                  type="button"
+                  class="btn btn-danger btn-sm"
+                  style={{ backgroundColor: "#E21818" }}
+                >
                   Get Started <AiOutlineRightCircle />
                 </button>
               </div>
@@ -89,7 +118,9 @@ export default function Home() {
         <div class="row mt-5">
           <div class="col-md-6 ">
             <h3 className="d-md-none d-block mb-3">Our Story...</h3>
-            <h1 className=" d-md-none d-block mb-3 text-danger">About Sumago Infotech</h1>
+            <h1 className=" d-md-none d-block mb-3 text-danger">
+              About Sumago Infotech
+            </h1>
             <div className="container-fluid">
               <a className="navbar-brand" href="#">
                 <img
@@ -104,27 +135,33 @@ export default function Home() {
 
           <div class="col-md-6  mt-4">
             <h5 className="d-md-block d-none">Our Story...</h5>
-            <h1 className="text-danger d-md-block d-none">About Sumago Infotech</h1>
+            <h1 className="text-danger d-md-block d-none">
+              About Sumago Infotech
+            </h1>
             <br />
-            <h5>
+            <p>
               Lorem ipsum is simply dummy text of the printing
               <br />
               and typesetting industry.Lorem ipsum is simply
               <br />
               dummy text of the printing and typesetting industry.
-            </h5>
+            </p>
             <br />
-            <button type="button" class="btn btn-danger btn-sm"style={{backgroundColor:"#E21818"}}>
+            <button
+              type="button"
+              class="btn btn-danger btn-sm"
+              style={{ backgroundColor: "#E21818" }}
+            >
               Know More <AiOutlineRightCircle />
             </button>
           </div>
         </div>
       </div>
 
-      <div className="d-flex justify-content-evenly mid-div p-3">
+      <div className="d-flex justify-content-evenly mid-div p-3 mt-5">
         <div className="">
           <h3 className="text-light fs-2">
-            <CountUp duration={5} end={100} />+
+            <CountUp duration={15} end={100} />+
           </h3>
           <h3 className="text-light fs-1"> Projects Completed</h3>
         </div>
@@ -138,7 +175,7 @@ export default function Home() {
       </div>
       {/* -------------------------------------------------------------- */}
 
-      <div className="mt-3">
+      <div className="mt-5">
         {/* <span className="fs-6 text-light">We work with you, Not for you</span> */}
 
         <span
@@ -188,20 +225,20 @@ export default function Home() {
           <div class="col-md-6  mt-5">
             <h2> We Are Experts,In Our Work!</h2>
             <br />
-            <h5>
+            <p>
               Lorem ipsum is simply dummy text of the printing
               <br />
               and typesetting industry.Lorem ipsum is simply
               <br />
               dummy text of the printing and typesetting industry.
-            </h5>
-            <h5>
+            </p>
+            <p>
               Lorem ipsum is simply dummy text of the printing
               <br />
               and typesetting industry.Lorem ipsum is simply
               <br />
               dummy text of the printing and typesetting industry.
-            </h5>
+            </p>
           </div>
 
           <div class=" col-md-6">
@@ -225,13 +262,13 @@ export default function Home() {
             <h6>Sumago Infotech...</h6>
             <h1>Contact Us Today!</h1>
 
-            <h5>
+            <p>
               Lorem ipsum is simply dummy text of the printing
               <br />
               and typesetting industry.Lorem ipsum is simply
               <br />
               dummy text of the printing and typesetting industry.
-            </h5>
+            </p>
             <br />
             <button type="button" class="btn btn-outline-danger">
               Contact Us Now <AiOutlineRightCircle />
@@ -241,12 +278,7 @@ export default function Home() {
           <div class=" col-md-6">
             <div className="container-fluid">
               <a className="navbar-brand" href="#">
-                <img
-                  src={grp_img}
-                  alt=""
-                  width="400rem"
-                  className="img-fluid"
-                />{" "}
+                <img src={imp} alt="" width="400rem" className="img-fluid" />{" "}
               </a>
             </div>
           </div>
