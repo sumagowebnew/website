@@ -11,7 +11,7 @@ export default function Slider() {
   return (
     <>
     <div className='ms-4'>
-    <div class="col-md-6 mb-4 d-flex flex-column align-items-start">
+    <div class="col-md-6  mt-4 mb-4 d-flex flex-column align-items-start">
             <h5 className="d-md-block d-none text-light">We Work On...</h5>
             <h1 className="text-danger">Technology</h1>
     </div>

@@ -7,9 +7,7 @@ import '../App.css'
 export default function Contact() {
   return (
     <>
-      <div>
-        <Header />
-      </div>
+      
       <div>
         <h2 className="text-light">Get In Touch</h2>
       </div>
@@ -17,13 +15,13 @@ export default function Contact() {
         <div className="col-lg-1 col-md-1"></div>
         <div className="col-lg-5 col-md-5 col-12 p-3 p-lg-5 p-md-3 back text-start rounded-3 image">
           <h3>Let's make something great!</h3>
-          <h6>
+       <p>
             If you would like to find out more about what
             <br />
             Sumago Infotech can do for your business or to
             <br />
             receive a project quote,don't hesitate to contact us.
-          </h6>
+          </p>
 
           <div>
             <h4>Contact Us</h4>
@@ -61,8 +59,8 @@ export default function Contact() {
             </div>
             <div className=""></div>
             <div className="ms-3">
-              <div> info@sumagoinfotech.com</div>
-              <div> sumagoinfotech@gmail.com</div>
+              <p><a href="https://infotech@sumagoinfotech.com" class="link-underline-primary">info@sumagoinfotech.com</a></p>
+              <p><a href="sumagoinfotech@gmail.com" class="link-underline-primary"> sumagoinfotech@gmail.com </a></p>
             </div>
           </div>
 
