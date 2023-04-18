@@ -98,7 +98,7 @@ const Footer = () => {
                                     </ul>
                             </div>
                         </div>
-                        <div class="col-md-2 col-12 ">
+                        <div class="col-md-3 col-12 ">
                             <div className="sb_footer-links-div">
                                 <h4>Services </h4>
                                 <img  className='w-50 mb-4'  src={Line} alt=""  />
@@ -223,7 +223,7 @@ const Footer = () => {
                             <hr className='text-white' />
                         </div>
                         <div className="col-md-12 col-12 col-lg-4">
-                            <img className='img-style img-fluid ms-md-0 ms-5' src={sumago} alt="" />
+                            <img className='img-style img-fluid ms-md-0 ms-1' src={sumago} alt="" />
                             <h6 className='d-md-inline text-white text-center text-md-left'>@{new Date().getFullYear()}.All Right Reserved</h6>
                         </div>
                         <div className="col-lg-4">
