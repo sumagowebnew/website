@@ -14,7 +14,7 @@ import co from '../Life/LifeImages/co.png'
 import work from '../Life/LifeImages/work.png'
 import hand from '../Life/LifeImages/hand.png'
 import goal from '../Life/LifeImages/goal.png'
-import Footer from '../Footer'
+
 import Img from '../Life/LifeImages/Img.png'
 import Img2 from '../Life/LifeImages/Img2.png'
 import image1 from '../Life/LifeImages/image1.png'

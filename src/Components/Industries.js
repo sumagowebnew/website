@@ -7,9 +7,11 @@ import pic2 from "./industries/Retail1.png";
 import Slider2 from "./Slider2";
 import photo from "./industries/Rectangle 1636.png";
 import pic3 from "./industries/Group 3314.png";
+import './Industries.css';
 export default function Industries() {
   return (
     <>
+    <div className="align">
       <div className="mt-3">
         {/* <span className="fs-6 text-light">We work with you, Not for you</span> */}
 
@@ -146,6 +148,7 @@ export default function Industries() {
         <div>
           <img src={pic3} alt="pic2" className="img-fluid" width="80%" />
         </div>
+      </div>
       </div>
     </>
   );

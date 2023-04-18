@@ -19,7 +19,7 @@ function App() {
         {/* <Aboutuspage/> */}
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/aboutus" element={<Aboutuspage />} />
+          <Route path="/Aboutuspage" element={<Aboutuspage/>} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/Industries" element={<Industries />} />
           <Route path="/Service" element={<Service />} />

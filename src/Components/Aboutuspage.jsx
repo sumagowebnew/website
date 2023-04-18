@@ -14,6 +14,13 @@ import dtaditi from "../Components/images/aditi.png";
 import dtpurva from "../Components/images/purva.png";
 import dtmansi from "../Components/images/mansi.png";
 import dtpiyush from "../Components/images/piyush.png";
+import dtsavita from "../Components/images/savita.png";
+import dtmaheshm from "../Components/images/maheshm.png";
+import dtvikas from "../Components/images/vikas.png";
+import dtvivek from "../Components/images/vivek.png";
+import dtrupali from "../Components/images/rupali.png";
+import dtpratiksha from "../Components/images/pratiksha.png";
+import dtpayal from "../Components/images/payal.png";
 
 import {CiLinkedin} from "react-icons/ci"
 import aboutus from "../Components/images/aboutus.png";
@@ -412,7 +419,7 @@ const Aboutuspage = () => {
         </div>
 
         {/* Call to Action Part ends  here*/}
-        <div className="text-center">
+        <div className="text-center mt-4">
           <h2>DEVELOPMENT TEAM</h2>
           <div className="d-flex justify-content-center">
             <hr className=" text-white w-25 text-center"></hr>
@@ -487,12 +494,54 @@ const Aboutuspage = () => {
                   
 
             {/*INNER CIRCLE */}
+            <img src={dtsavita} width={"150rem"} height={"150rem"} style={{marginLeft:"24rem",marginTop:"1rem"}}/>
+                  <h5 style={{marginLeft:"31rem",marginTop:"-2rem"}}><CiLinkedin/></h5>
+                  <h6 style={{marginLeft:"31rem",marginTop:"-.50rem"}}>Savita Hazare</h6>
+                  <p style={{marginLeft:"31rem",marginTop:"-0.50rem"}}>Developer</p>
+
+            <img src={dtmaheshm} width={"150rem"} height={"150rem"} style={{marginLeft:"40rem",marginTop:"-16.5rem"}}/>
+                  <h5 style={{marginLeft:"46rem",marginTop:"-6rem"}}><CiLinkedin/></h5>
+                  <h6 style={{marginLeft:"43rem",marginTop:"-.50rem"}}>Mahesh Mhaske</h6>
+                  <p style={{marginLeft:"44rem",marginTop:"-0.50rem"}}>Developer</p>
+            
+            <img src={dtpayal} width={"150rem"} height={"150rem"} style={{marginLeft:"11rem",marginTop:"-1rem"}}/>
+                  <h6 style={{marginLeft:"18rem",marginTop:"-10rem"}}>Payal Patil</h6>
+                  <p style={{marginLeft:"18rem",marginTop:"-0.50rem"}}>Developer</p>
+                  <h5 style={{marginLeft:"19rem",marginTop:"-1.5rem"}}><CiLinkedin/></h5>
+
+            <img src={dtpratiksha} width={"150rem"} height={"150rem"} style={{marginLeft:"50rem",marginTop:"-4rem"}}/>
+                  <h5 style={{marginLeft:"54rem",marginTop:"-0.5rem"}}><CiLinkedin/></h5>
+                  <h6 style={{marginLeft:"47rem",marginTop:"-1rem"}}>Pratiksha Karwate</h6>
+                  <p style={{marginLeft:"51rem",marginTop:"-0.50rem"}}>Developer</p>
+
+            <img src={dtvikas} width={"150rem"} height={"150rem"} style={{marginLeft:"10rem",marginTop:"1rem"}}/>
+                  <h6 style={{marginLeft:"14rem",marginTop:"-13rem"}}>Vikas Wagh</h6>
+                  <p style={{marginLeft:"14rem",marginTop:"-0.50rem"}}>Developer</p>
+                  <h5 style={{marginLeft:"14rem",marginTop:"-1rem"}}><CiLinkedin/></h5>
+
+            <img src={dtrupali} width={"150rem"} height={"150rem"} style={{marginLeft:"49rem",marginTop:"1rem"}}/>
+                  <h5 style={{marginLeft:"50rem",marginTop:"-2rem"}}><CiLinkedin/></h5>
+                  <h6 style={{marginLeft:"45rem",marginTop:"-1rem"}}>Rupali Patil</h6>
+                  <p style={{marginLeft:"45rem",marginTop:"-0.50rem"}}>Developer</p>
+
+            <img src={dtvivek} width={"150rem"} height={"150rem"} style={{marginLeft:"20rem",marginTop:"-1rem"}}/>
+                  <h6 style={{marginLeft:"18rem",marginTop:"-13rem"}}>Vivek patil</h6>
+                  <p style={{marginLeft:"19rem",marginTop:"-0.50rem"}}>Developer</p>
+                  <h5 style={{marginLeft:"21rem",marginTop:"-1rem"}}><CiLinkedin/></h5>
+
+            <img src={dtvivek} width={"150rem"} height={"150rem"} style={{marginLeft:"34rem",marginTop:"0rem"}}/>
+                  <h6 style={{marginLeft:"31rem",marginTop:"-9rem"}}>Vivek patil</h6>
+                  <p style={{marginLeft:"31rem",marginTop:"-0.50rem"}}>Developer</p>
+                  <h5 style={{marginLeft:"33.5rem",marginTop:"-1rem"}}><CiLinkedin/></h5>
+
+
+
           </div>
         </div>
         {/*Development team  DESKTOP view ends here*/}
 
         {/*Development team  Mobile view starts here*/}
-        <div className="container d-lg-none">
+        <div className="container grp-cards">
           <div className="row main">
             <div className="col-md-3 d-flex justify-content-center col-6">
               <div className="profile-card">
@@ -591,29 +640,13 @@ const Aboutuspage = () => {
                 </div>
               </div>
             </div>
-            <nav aria-label="...">
-              <ul className="pagination pagination-lg justify-content-end ">
-                <li className="page-item active bg-danger" aria-current="page">
-                  <span className="page-link bg-danger">1</span>
-                </li>
-                <li className="page-item">
-                  <a className="page-link" href="#">
-                    2
-                  </a>
-                </li>
-                <li className="page-item">
-                  <a className="page-link" href="#">
-                    3
-                  </a>
-                </li>
-              </ul>
-            </nav>
+            
           </div>
         </div>
         {/*Development Ends here*/}
 
         {/*Training team section starts here */}
-        <div className="text-center">
+        <div className="text-center mb-5">
           <h2 className="mt-5">TRAINING TEAM</h2>
           <div className="d-flex justify-content-center">
             <hr className=" text-white w-25 text-center"></hr>

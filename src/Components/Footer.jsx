@@ -20,7 +20,7 @@ const Footer = () => {
            
             <section class="section mb-3 ">
                 <div class="container">
-                    <div class=" p-3 position-relative newsletter  rounded-start-2  ">
+                    <div class=" p-3 position-relative newsletter  rounded-start-2 mt-5 ">
                         <div class="row  ">
                             <div class="col-lg-6 col-md-6 ">
                                 <div class=" text-center ms-4">

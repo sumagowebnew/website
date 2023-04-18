@@ -9,9 +9,9 @@ export default function Contact() {
     <>
       
       <div>
-        <h2 className="text-light">Get In Touch</h2>
+        <h2 className="text-light align">Get In Touch</h2>
       </div>
-      <div className="row mt-5 ms-md-5 ms-0 container">
+      <div className="row mt-5 ms-md-5 ms-0 container mb-5">
         <div className="col-lg-1 col-md-1"></div>
         <div className="col-lg-5 col-md-5 col-12 p-3 p-lg-5 p-md-3 back text-start rounded-3 image">
           <h3>Let's make something great!</h3>
@@ -41,7 +41,7 @@ export default function Contact() {
             </div>
           </div> */}
 
-          <div className="d-flex justify-content-space-around">
+          <div className="d-flex justify-content-space-around ">
             <div className="">
               <img src={call} className="" width="36rem" />
             </div>
@@ -59,8 +59,8 @@ export default function Contact() {
             </div>
             <div className=""></div>
             <div className="ms-3">
-              <p><a href="https://infotech@sumagoinfotech.com" class="link-underline-primary">info@sumagoinfotech.com</a></p>
-              <p><a href="sumagoinfotech@gmail.com" class="link-underline-primary"> sumagoinfotech@gmail.com </a></p>
+              <p><a href="mailto:infotech@sumagoinfotech.com" class="link-underline-primary">info@sumagoinfotech.com</a></p>
+              <p><a href="mailto:sumagoinfotech@gmail.com" class="link-underline-primary"> sumagoinfotech@gmail.com </a></p>
             </div>
           </div>
 
@@ -80,8 +80,8 @@ export default function Contact() {
 
         <div className="col-6 mt-md-5">
           <h4>Drop us a line</h4>
-          <input
-            class="form-control bg-transparent"
+          <input 
+            class="form-control bg-transparent text-white"
             type="text"
             placeholder="Your Name"
             aria-label="default input example"
@@ -91,14 +91,14 @@ export default function Contact() {
             <label for="exampleFormControlInput1" class="form-label"></label>
             <input
               type="email"
-              class="form-control bg-transparent"
+              class="form-control bg-transparent text-white"
               id="exampleFormControlInput1"
               placeholder="name@example.com"
             />
           </div>
 
           <input
-            class="form-control bg-transparent"
+            class="form-control bg-transparent text-white"
             type="text"
             placeholder="Subject"
             aria-label="default input example"
@@ -106,7 +106,7 @@ export default function Contact() {
           <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label"></label>
             <textarea
-              class="form-control bg-transparent"
+              class="form-control bg-transparent text-white"
               id="exampleFormControlTextarea1"
               placeholder="Message"
               rows="3"

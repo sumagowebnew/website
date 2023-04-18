@@ -1,11 +1,10 @@
-
-.img-fluid:hover{
+ .img-fluid:hover{
   transform: scale(1.07);
-}
+} 
 .App {
-  /* text-align: center; */
+
   color: white;
-  /* background-image: radial-gradient(rgb(45,24,24),rgb(20,21,20),rgb(20,20,21)); */
+
   background-image: radial-gradient(rgb(20,21,20),rgb(26, 2, 2),rgb(20,21,20));
 }
 body{
@@ -24,7 +23,7 @@ body{
   background-size: cover;
 }
 .App {
-  text-align: center;
+ 
   background-image: radial-gradient(rgb(45, 24, 24), rgb(20, 21, 20), rgb(20, 20, 21));
   color: white;
 }
@@ -79,9 +78,7 @@ body{
  .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
    color: rgba(206, 6, 6, 0.9);}
  .navbar-nav .nav-link:not(.active) {
-  color: white; /* Set the text color to white for non-active tabs */
+  color: white;
 }
 
-/* .navbar-nav .nav-link:not(.active):hover { */
-  /* color: rgb(208, 24, 24); Set the text color to gray for non-active tabs on hover */
-/* } */
+

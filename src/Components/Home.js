@@ -25,6 +25,7 @@ export default function Home() {
 
   return (
     <>
+    <div className="align">
       <div className="row">
         <div className="col-2" style={{ marginTop: "10rem" }}>
           <div className="d-flex justify-content-start">
@@ -301,6 +302,7 @@ export default function Home() {
           })}
         </div>
         <div className="col-md-3"></div>
+      </div>
       </div>
     </>
   );
