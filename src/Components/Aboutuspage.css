@@ -1,0 +1,311 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.hr{
+    width: 47%;
+    margin-inline: 25%;
+    color:rgb(250, 249, 246);
+    height: 5px;
+    border-width: 2px;
+}
+.cd{
+    border: 17px  solid  rgb(127, 5, 5) ;
+    padding: 10px;
+    background-color:rgb(127, 5, 5);
+    background-image: linear-gradient(to bottom right,rgb(181, 22, 28),rgb(20,20,20));
+    margin: 40px 40px;
+    border-radius: 25px;
+}
+.mid-div{
+    background-image: url("../Components/images/Rectangle\ img1.png");
+    background-size: cover;
+    padding: 2rem;
+  }
+  .bor{
+    border-radius: 0px 100px 100px 0px;
+    background-image: linear-gradient(to bottom right,rgb(210, 25, 32),rgb(20,20,20));
+}
+.bord{
+    border-radius: 100px 0px 0px 100px;
+    background-image: linear-gradient(to bottom right,rgb(210, 25, 32),rgb(20,20,20));
+
+}
+.calltoaction{
+    background-image: url("../Components/images/Rectangle\ img\ 2.png");
+    background-size: cover;
+  }
+
+/*Development team DESKTOP view Css STARTS*/
+.desktophead{
+  height: 75rem;
+  width: 100%;
+
+}
+.desktopview{
+  background-image: url("../Components/images/DevelopmentTeam.png");
+  width: 100%;
+  height: 100%;
+background-size:100% ;
+background-repeat: no-repeat;
+}
+/*Development team DESKTOP view Css ENDS*/
+
+/*Development team Mobile view Css*/
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile-card {
+    /* position: relative; */
+    font-family: sans-serif;
+    width: 220px;
+    height: 220px;
+    background-color:rgb(127, 5, 5);
+    background-image: linear-gradient(to bottom right,rgb(215, 25, 31),rgb(94, 13, 13),rgb(252, 0, 8));
+    padding: 30px;
+    border-radius: 50%;
+    box-shadow: 0 0 22px #3336;
+    transition: .6s;
+    /* margin: 0 25px; */
+  }
+
+  .profile-card:hover {
+    border-radius: 10px;
+    height: 250px;
+  }
+
+  .profile-card .img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: .6s;
+    z-index: 99;
+  }
+
+  .img img {
+    width:100%;
+    border-radius: 50%;
+    box-shadow: 0 0 22px #3336;
+    transition: .6s;
+    align-items: center;
+  }
+
+  .profile-card:hover img {
+    border-radius: 10px;
+    align-items: center;
+  }
+
+  .caption {
+    text-align: center;
+    transform: translateY(-82px);
+    opacity: 0;
+    transition: .6s;
+  }
+  .profile-card:hover .caption {
+    opacity: 1;
+  }
+
+  .caption h3 {
+    font-size: 21px;
+    font-family: sans-serif;
+  }
+
+  .caption p {
+    font-size: 15px;
+    color:white;
+    font-family: sans-serif;
+    margin: 2px 0 9px 0;
+  }
+  @media screen and (max-width: 992px) {
+  .profile-card:hover .img {
+    transform: translateY(-60px);
+  }
+  }
+  /*Development team Mobile view Css ends here*/
+
+
+  /*Training  team section Css starts here*/
+  .bgc{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    box-shadow: none;
+    /* background-image:linear-gradient(to bottom right,rgb(88,19,19),rgb(20,21,20),rgb(108,14,14)); */
+    background-image: linear-gradient(to bottom right,rgb(215, 25, 31),rgb(94, 13, 13),rgb(252, 0, 8));
+    color: white;
+
+  }
+.tree {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tree img {
+  width: 110px;
+  border-radius: 50%;
+}
+.tree ul {
+  position: relative;
+  padding: 1em 0;
+  white-space: nowrap;
+  display: flex;
+  text-align: center;
+}
+.tree ul .inn_line {
+  padding: 50px 0 0;
+}
+
+.tree ul::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.tree li {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  list-style-type: none;
+  position: relative;
+  padding: 96px 0 0;
+  width: 100%;
+}
+.tree li::before,
+.tree li::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 50%;
+  border-top: 5px solid #fff;
+  width: 50%;
+  height: 45px;
+  z-index: 1;
+}
+
+.tree li::after {
+  right: auto;
+  left: 50%;
+  border-left: 5px solid #ccc;
+}
+.tree li:only-child::after,
+.tree li:only-child::before {
+  display: none;
+}
+
+.tree li:only-child {
+  padding-top: 0;
+}
+
+.tree li:first-child::before,
+.tree li:last-child::after {
+  border: 0 none;
+}
+
+.tree li:last-child::before {
+  border-right: 5px solid #ccc;
+  border-radius: 0 5px 0 0;
+}
+
+.tree li:first-child::after {
+  border-radius: 5px 0 0 0;
+}
+
+.tree ul ul::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  border-left: 5px solid #ccc;
+  width: 0;
+  height: 45px;
+}
+
+.tree li a {
+  padding: 0;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  color: #333;
+  position: relative;
+  top: 1px;
+}
+
+.tree li a p {
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.pro-card {
+	width: 300px;
+  height: 250px;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2rem;
+	border-radius: 1rem;
+	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.6);
+}
+
+.pro-image {
+	position: relative;
+	top: -50px;
+	/* border-radius: 1rem; */
+	/* background-image: url(https://yt3.ggpht.com/ytc/AKedOLSB-oR-xmvVSZXJ3gbK12uvv0AJUvajwxMie_R_uw=s900-c-k-c0x00ffffff-no-rj); */
+	
+	
+	/* box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.4); */
+}
+
+.pro-info {
+	text-align: center;
+	margin-top: -3rem;
+	margin-bottom: 1rem;
+}
+
+.pro-info > .profile-name {
+	color: #212121;
+}
+
+.pro-info > .profile-desc {
+	color: #666666;
+	font-size: 0.9rem;
+}
+.training-card {
+  max-width: 15rem;
+  margin: 1rem;
+  height:8rem
+}
+
+.training-card-title {
+  font-size: 1.25rem;
+  margin-top:-3.25rem;
+}
+
+@media (max-width: 576px) {
+  .tree {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .training-card {
+    max-width: 100%;
+    
+  }
+
+  .training-card-title {
+    font-size: 1rem;
+  }
+}
+
+  /*Training  team   Css ends here*/
+
+
