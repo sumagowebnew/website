@@ -52,6 +52,12 @@
 background-size:100% ;
 background-repeat: no-repeat;
 }
+
+@media screen and (max-width:1203px) {
+  .desktophead{
+    display: none;
+  }
+}
 /*Development team DESKTOP view Css ENDS*/
 
 /*Development team Mobile view Css*/
@@ -130,6 +136,11 @@ background-repeat: no-repeat;
   }
   /*Development team Mobile view Css ends here*/
 
+  @media screen and (min-width:1204px) {
+    .grp-cards{
+      display: none;
+    }
+  }
 
   /*Training  team section Css starts here*/
   .bgc{

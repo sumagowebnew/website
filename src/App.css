@@ -1,0 +1,84 @@
+ .img-fluid:hover{
+  transform: scale(1.07);
+} 
+.App {
+
+  color: white;
+
+  background-image: radial-gradient(rgb(20,21,20),rgb(26, 2, 2),rgb(20,21,20));
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.mid-div{
+  background-image: url("./Components/images/back.png");
+  background-size: cover;
+}
+.mid-divi{
+  background-image: url("./Components/images/Rectangle 1663.png");
+  background-size: cover;
+}
+.App {
+ 
+  background-image: radial-gradient(rgb(45, 24, 24), rgb(20, 21, 20), rgb(20, 20, 21));
+  color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.img-Group{
+  width: 80%;
+}
+.img-Growth{
+  text-align: center;
+  width: 80%;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.back{
+
+  background-image: linear-gradient( to bottom right,rgb(88, 19, 19),rgb(20, 21, 20),rgb(108, 14,14));
+}
+ .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+   color: rgba(206, 6, 6, 0.9);}
+ .navbar-nav .nav-link:not(.active) {
+  color: white;
+}
+
+
