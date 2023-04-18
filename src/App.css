@@ -1,8 +1,4 @@
-/* body{
-  background-color: rgb(20, 20, 20);
-  
-  
-} */
+
 .img-fluid:hover{
   transform: scale(1.07);
 }
@@ -11,6 +7,26 @@
   color: white;
   /* background-image: radial-gradient(rgb(45,24,24),rgb(20,21,20),rgb(20,20,21)); */
   background-image: radial-gradient(rgb(20,21,20),rgb(26, 2, 2),rgb(20,21,20));
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.mid-div{
+  background-image: url("./Components/images/back.png");
+  background-size: cover;
+}
+.mid-divi{
+  background-image: url("./Components/images/Rectangle 1663.png");
+  background-size: cover;
+}
+.App {
+  text-align: center;
+  background-image: radial-gradient(rgb(45, 24, 24), rgb(20, 21, 20), rgb(20, 20, 21));
+  color: white;
 }
 
 .App-logo {
@@ -32,7 +48,6 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-font-family: po;
   color: white;
 }
 .img-Group{
@@ -56,3 +71,17 @@ font-family: po;
     transform: rotate(360deg);
   }
 }
+
+.back{
+
+  background-image: linear-gradient( to bottom right,rgb(88, 19, 19),rgb(20, 21, 20),rgb(108, 14,14));
+}
+ .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+   color: rgba(206, 6, 6, 0.9);}
+ .navbar-nav .nav-link:not(.active) {
+  color: white; /* Set the text color to white for non-active tabs */
+}
+
+/* .navbar-nav .nav-link:not(.active):hover { */
+  /* color: rgb(208, 24, 24); Set the text color to gray for non-active tabs on hover */
+/* } */
