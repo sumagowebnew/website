@@ -2,18 +2,19 @@
   transform: scale(1.07);
 } 
 .App {
-
-  color: white;
-
-  background-image: radial-gradient(rgb(20,21,20),rgb(26, 2, 2),rgb(20,21,20));
-}
-body{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  color: white;
+  background-image: radial-gradient(rgb(20,21,20),rgb(26, 2, 2),rgb(20,21,20));
+  overflow: hidden;
 }
 
-
+.body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  
+}
 .mid-div{
   background-image: url("./Components/images/back.png");
   background-size: cover;

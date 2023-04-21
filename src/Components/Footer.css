@@ -1,22 +1,13 @@
-
 .Footer-container {
     /* background: linear-gradient(to right, #00093c, #2d0b00); */
-    background-image: url('../Image/Footer.jpg');
-    /* background-attachment: fixed; */
+    background-image: url('../Image/footer.png');
     background-size: cover;
-    background-position: center top;
-    background-clip: padding-box;
-    line-height: initial;
-
-
-    /* width: 80rem;
-    height: 33rem; */
+    /* background-position: center top; */
+    /* background-clip: padding-box; */
+    /* line-height: initial; */
+  background-position: center;
 }
 
-
-/* .footer-row { 
-     text-align: start; 
- } */
 
 .img-style {
     width: 49%;
@@ -25,75 +16,47 @@
 }
 
 .img-heart {
-    width: 2%;
+    width: 2.5%;
+   
 }
 
-.sb_footer-links {
+/* .sb_footer-links {
     color: white;
-    text-align: left;
-}
-.sb_footer-links-div{
-    text-align:start;
+    text-align:start 
+   
+} */
+
+.sb_footer-links-div {
+    text-align: start;
 }
 
 .links {
     text-decoration: none !important;
     color: white;
-    /* text-align: end; */
+    
 }
 
-.icons {
+.icon {
 
-    width: 25px;
-    height: 25px;
-    border-radius: 20%;
-    /* text-align: center; */
-    line-height: 20px;
-    font-size: 20px;
-    /* color: #491414; */
-    /* background: #120f0f; */
-    margin-right: 15px;
-    cursor: pointer;
-    /* color: rgb(143, 30, 30); */
-
-
+    position: relative;
+    bottom: 0rem;
+    width: 18rem;
+    left: 10rem;
 }
-
+.icons{
+    width: 18rem;
+}
 .newsletterHeading {
     text-align: end;
 }
-
-.underline {
-    width: 50%;
-    height: 10%;
-    background: #767676;
-    border-radius: 3px;
-    position: relative;
-    bottom: 1px;
-    left: 0;
-    overflow: hidden;
-}
-
-/* .underline-ser{
-    width: 50%;
-    height: 10%;
-    background: #767676;
-    border-radius: 3px;
-    position: relative;
-    bottom: 1px; 
-    left: 0;
-    overflow: hidden;
+/* .news{
+    margin-top: -4%;
+    margin-left: -40%;
 } */
-.underline span {
-    width: 15px;
-    height: 100%;
-    background: #fff;
-    position: absolute;
-    top: 0;
-    left: 10px;
-    animation: moving 2s linear infinite;
+/* .letter{
+    margin-left: -22%;
+} */
 
-}
 
 @keyframes moving {
     0% {
@@ -106,9 +69,9 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .footer-row {
+    /* .footer-row {
         text-align: left !important;
-    }
+    } */
 
     .newsletterHeading {
         text-align: center;
@@ -123,39 +86,46 @@
     background-color: transparent;
     border-radius: 20px;
     box-shadow: none;
-    /* background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    height: 70%;
-    justify-content: center;
-    width: 70%; */
-    /* background-color: transparent; */
-    /* border: none;
-  box-shadow: none; */
-    /* color: white; */
+    height: 4rem;
 
+}
+.newsletterr {
+    background-image: url('../Image/Newsletter.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size:cover; */
+    background-color: transparent;
+    border-radius: 20px;
+    box-shadow: none;
 }
 
 .input-group input,
 .input-group :focus {
+
     background-color: transparent;
     color: #fff;
-    
 
 }
+.form-control::placeholder{
+color:rgba(236,236,244,0.485);
+}
+
+
 .links {
     display: inline-block;
     color: #fff;
     text-decoration: none;
-  
+
 }
-li{
+
+li {
     list-style-type: none;
-    
+
 }
-ul{
-    padding-left:0%;
-   
+
+ul {
+    padding-left: 0%;
+
 }
 
 .links::after {
@@ -165,21 +135,39 @@ ul{
     height: 1px;
     background: #fff;
     transition: width .3s;
-    margin-top: -8px;
+    margin-top: 0px;
 }
+
 .links:hover::after {
     width: 100%;
-    
+
 }
 
 input[type="text"] {
     outline: none;
     box-shadow: none !important;
     border: 1px solid #ccc !important;
-   
-   
+
+
 }
 
+@media only screen and (max-width: 576px) {
+   
+    .links{
+        font-size: xx-small;
+    }
+    .contact{
+        display: none;
+    }
+}
+ /* .previous{
+    width: inherit;
+    left: -4rem;
+} */
+/* .next{
+    width: inherit;
+    
+}  */
 
 
 /* --serivces-- */
@@ -197,7 +185,7 @@ input[type="text"] {
 
 .services {
     background-image: radial-gradient(rgb(88, 19, 19), rgb(20, 21, 20), rgb(108, 14, 14));
-    border-radius: 25px ;    
+    border-radius: 25px;
 
 }
 
@@ -207,7 +195,7 @@ input[type="text"] {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    width: 100%;
+    width: 90%;
     border-radius: 9%;
     background-color: transparent;
     border: none;
