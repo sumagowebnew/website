@@ -28,7 +28,7 @@ export default function Life() {
       {/* life */}
       <div className="container">
         <div className="row">
-          <div className="col-md-6 d-flex justify-content-center align-items-center">
+          <div className="col-md-6 d-flex justify-content-center align-items-center text-start">
             <div className="col-md-6 text-white">
               <h6>Events....... </h6>
               <h2> Our Moments</h2>
@@ -82,18 +82,18 @@ export default function Life() {
 
           <h6>Lates Blogs</h6>
           <div className="">
-                        <hr className='d-flex-text-align-center ' style={{ margin: "0 auto", width: "5rem" }}></hr>
-                    </div>
+            <hr className='d-flex-text-align-center ' style={{ margin: "0 auto", width: "5rem" }}></hr>
+          </div>
           <h2>Trendings On Our Blogs</h2>
           <div className="col-md-12 mt-1 d-flex justify-content-end">
-          <button type="button" class="btn btn-outline-danger">View More <AiOutlineRightCircle /></button>
+            <button type="button" class="btn btn-outline-danger">View More <AiOutlineRightCircle fill='red' /></button>
           </div>
           <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col ">
               <div class="card bg-transparent text-start img-fluid ">
                 <img src={world} class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title">Blog Title</h5>
+                  <h5 class="card-title text-white">Blog Title</h5>
                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
               </div>
@@ -102,7 +102,7 @@ export default function Life() {
               <div class="card bg-transparent text-start img-fluid ">
                 <img src={key} class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title">Blog Title</h5>
+                  <h5 class="card-title text-white">Blog Title</h5>
                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
               </div>
@@ -111,7 +111,7 @@ export default function Life() {
               <div class="card bg-transparent text-start img-fluid">
                 <img src={leader} class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title">Blog Title</h5>
+                  <h5 class="card-title text-white">Blog Title</h5>
                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
                 </div>
               </div>
@@ -137,28 +137,13 @@ export default function Life() {
 
         <div className='text-center'>
           <h4> Portfolio</h4>
-          <nav class="navbar navbar-expand-lg  text-center  mt-2">
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav mx-auto ">
-                <li class="nav-item d-block">
-                  <a class="nav-link active text-light" aria-current="page" href="#">All</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-light" href="#">Events</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-light" href="#">News</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-light" href="#">Awards</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-light" href="#">Media</a>
-                </li>
-
-              </ul>
-            </div>
-          </nav>
+          <div className='d-flex justify-content-evenly'>
+            <div><a href="#" className='text-light text-decoration-none'>All</a></div>
+            <div><a href="#" className='text-light text-decoration-none'>Events</a></div>
+            <div><a href="#" className='text-light text-decoration-none'>News</a></div>
+            <div><a href="#" className='text-light text-decoration-none'>Awards</a></div>
+            <div><a href="#" className='text-light text-decoration-none'>Media</a></div>
+          </div>
 
         </div>
         <div className="d-flex justify-content-space-evenly mb-5 mt-5">
@@ -177,7 +162,7 @@ export default function Life() {
           </div>
           <div className="">
             <div className="mb-2 img-fluid">
-              <img className='img-Group ms-md-4 ' src={Img} alt=""  />
+              <img className='img-Group ms-md-4 ' src={Img} alt="" />
             </div>
             <div className="mb-2 img-fluid">
               <img className='img-Group ms-md-4 ' src={team} alt="" />
@@ -202,7 +187,6 @@ export default function Life() {
           </div>
         </div>
       </div>
-    
     </>
   )
 }
