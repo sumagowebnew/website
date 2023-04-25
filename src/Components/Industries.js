@@ -115,7 +115,7 @@ export default function Industries() {
         {/* <span className="fs-6 text-light">We work with you, Not for you</span> */}
 
         <span
-          className="fs-6 text-white mb-3"
+          className="fs-6 text-white mt-3 mb-3"
           style={{ display: "block", marginTop: "-0.4em" }}
         >
           Sumago Infotech

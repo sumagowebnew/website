@@ -5,7 +5,7 @@ export default function Slider2() {
     <>
       <div className="mt-3">
         <span
-          className="fs-5 text-white mb-2"
+          className="fs-5 text-white  mt-5 mb-2"
           style={{ display: "block", marginTop: "-0.4em" }}
         >
           Our Partnership

@@ -22,7 +22,7 @@ const Footer = () => {
                 <div class="container">
                     <div class=" p-3 position-relative newsletter  rounded-start-2 mt-5 ">
                         <div class="row  ">
-                            <div class="col-lg-6 col-md-6 ">
+                            <div class="col--6 col-md-6 ">
                                 <div class=" text-center ms-4">
                                     <h3 >Join Our NewsLetter</h3>
                                     <div class="cyber-cta-btn">                                 
