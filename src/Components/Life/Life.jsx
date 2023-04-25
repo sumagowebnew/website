@@ -30,9 +30,9 @@ export default function Life() {
         <div className="row">
           <div className="col-md-6 d-flex justify-content-center align-items-center text-start">
             <div className="col-md-6 text-white">
-              <h6>Events....... </h6>
+              <h5>Events....... </h5>
               <h2> Our Moments</h2>
-              <p>It Takes a lot of hard to make something simple, to truly  understand the underlying
+              <p className='' style={{textAlign:"justify"}}>It Takes a lot of hard to make something simple, to truly  understand the underlying
                 challenges and come up with  elegant solutions</p>
             </div>
           </div>
@@ -80,7 +80,7 @@ export default function Life() {
         {/* latestblogs */}
         <div className="row text-center mb-5 mt-5">
 
-          <h6>Lates Blogs</h6>
+          <h5>Lates Blogs</h5>
           <div className="">
             <hr className='d-flex-text-align-center ' style={{ margin: "0 auto", width: "5rem" }}></hr>
           </div>
@@ -93,8 +93,9 @@ export default function Life() {
               <div class="card bg-transparent text-start img-fluid ">
                 <img src={world} class="card-img-top" alt="..." />
                 <div class="card-body">
+                <p class="fs-6">February25,2023</p>
                   <h5 class="card-title text-white">Blog Title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text" style={{textAlign:"justify"}}>This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
               </div>
             </div>
@@ -102,8 +103,9 @@ export default function Life() {
               <div class="card bg-transparent text-start img-fluid ">
                 <img src={key} class="card-img-top" alt="..." />
                 <div class="card-body">
+                <p class="fs-6">February25,2023</p>
                   <h5 class="card-title text-white">Blog Title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text" style={{textAlign:"justify"}}>This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
               </div>
             </div>
@@ -111,8 +113,9 @@ export default function Life() {
               <div class="card bg-transparent text-start img-fluid">
                 <img src={leader} class="card-img-top" alt="..." />
                 <div class="card-body">
+                <p class="fs-6">February25,2023</p>
                   <h5 class="card-title text-white">Blog Title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text" style={{textAlign:"justify"}}>This is a longer card with supporting text below as a natural lead-in to additional content.</p>
                 </div>
               </div>
             </div>
@@ -122,13 +125,22 @@ export default function Life() {
 
         <div className="row mt-5">
           <div className="col-md-6 d-flex justify-content-center img-fluid">
-            <img className='img-Group' src={award} alt="" height='80%' />
+          <a className="navbar-brand" href="#">
+                    <img
+                      src={award}
+                      alt=""
+                      width="400rem"
+                      height='80%'
+                      className="img-fluid"
+                    />{" "}
+                  </a>
+            {/* <img className='img-Group' src={award} alt="" height='80%' /> */}
           </div>
-          <div className="col-md-6 text-start">
-            <h6>Success Stories________</h6>
+          <div className="col-md-6 mt-5 text-start">
+            <h5>Success Stories________</h5>
             <h2>Awards</h2>
             <div className='d-flex justify-content-center'>
-              <p >Lorem ipsum dolor is sapiente odit doloribus harum error voluptatem? Totam ex delectus quae perspiciatis odio distinctio ratione. Expedita minus sunt veniam? Aperiam quam voluptatibus praesentium optio nesciunt impedit nemo veniam, vitae voluptate, incidunt dolor porro mollitia fugit natus molestiae vero corporis animi autem aut ratione voluptates! Ratione assumenda praesentium debitis, commodi placeat, dolore reiciendis esse doloremque reprehenderit quaerat ducimus. Labore tempore est voluptatibus aperiam commodi delectus asperiores odio repellendus, consequuntur totam qui dolore fugiat minus deleniti explicabo praesentium, veniam error dicta blanditiis dolores cupiditate. Dolorum dolorem molestiae aut, vel rem saepe vitae nam, sit ipsa minus animi ducimus debitis odit, facere unde qui cum explicabo tempore laudantium placeat amet! Est eligendi qui ipsa a, eius neque eveniet nulla itaque ducimus esse, odit adipisci.</p>
+              <p className=''style={{textAlign:"justify"}}>Lorem ipsum dolor utem aut rationeob saepe vitae nam, sit ipsa minus animi ducimus debitis odit, facere unde qui cum explicabo tempore laudantium placeat amet! Est eligendi qui ipsa a, eius neque eveniet nulla itaque ducimus esse, odit adipisci.</p>
             </div>
 
           </div>
@@ -138,11 +150,11 @@ export default function Life() {
         <div className='text-center'>
           <h4> Portfolio</h4>
           <div className='d-flex justify-content-evenly'>
-            <div><a href="#" className='text-light text-decoration-none'>All</a></div>
-            <div><a href="#" className='text-light text-decoration-none'>Events</a></div>
-            <div><a href="#" className='text-light text-decoration-none'>News</a></div>
-            <div><a href="#" className='text-light text-decoration-none'>Awards</a></div>
-            <div><a href="#" className='text-light text-decoration-none'>Media</a></div>
+            <div><a href="#" className='text-light '>All</a></div>
+            <div><a href="#" className='text-light '>Events</a></div>
+            <div><a href="#" className='text-light '>News</a></div>
+            <div><a href="#" className='text-light '>Awards</a></div>
+            <div><a href="#" className='text-light '>Media</a></div>
           </div>
 
         </div>
