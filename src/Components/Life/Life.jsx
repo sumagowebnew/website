@@ -199,7 +199,6 @@ export default function Life() {
           </div>
         </div>
       </div>
-
     </>
   )
 }
