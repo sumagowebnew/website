@@ -81,5 +81,13 @@
  .navbar-nav .nav-link:not(.active) {
   color: white;
 }
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+
 
 

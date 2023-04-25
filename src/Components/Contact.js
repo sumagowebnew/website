@@ -4,6 +4,7 @@ import call from "./socialmedia/call 3d 1.png";
 import mail from "./socialmedia/gmail 1.png";
 import locate from "./socialmedia/location 3d 1.png";
 import '../App.css'
+import '../Components/Contact.css'
 export default function Contact() {
   return (
     <>
@@ -81,17 +82,17 @@ export default function Contact() {
         <div className="col-6 mt-md-5">
           <h4>Drop us a line</h4>
           <input 
-            class="form-control bg-transparent text-white"
-            type="text"
+            class="form-control bg-transparent text-white "
+            type="text" 
             placeholder="Your Name"
             aria-label="default input example"
           ></input>
 
           <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label"></label>
+            <label for="exampleFormControlInput1" className="form-label"></label>
             <input
               type="email"
-              class="form-control bg-transparent text-white"
+              className="form-control bg-transparent text-white"
               id="exampleFormControlInput1"
               placeholder="name@example.com"
             />
@@ -105,7 +106,7 @@ export default function Contact() {
           ></input>
           <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label"></label>
-            <textarea
+           <textarea
               class="form-control bg-transparent text-white"
               id="exampleFormControlTextarea1"
               placeholder="Message"

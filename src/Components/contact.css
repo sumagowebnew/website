@@ -5,3 +5,9 @@
 .align{
     text-align: center; 
   }
+  .form-control::placeholder {
+    color: rgba(236, 236, 244, 0.485);
+  }
+  
+  
+  

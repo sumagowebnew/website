@@ -161,17 +161,17 @@ export default function Home() {
 
       <div className="d-flex justify-content-evenly mid-div p-3 mt-5">
         <div className="">
-          <h3 className="text-light fs-2">
+          <h3 className="text-light fs-1">
             <CountUp duration={15} end={100} />+
           </h3>
-          <h3 className="text-light fs-1"> Projects Completed</h3>
+          <h6 className="text-light fs-4 mt-2"> Projects Completed</h6>
         </div>
 
         <div className="">
-          <h3 className="text-light fs-2">
+          <h3 className="text-light fs-1">
             <CountUp duration={5} end={10} />+
           </h3>
-          <h3 className="text-light fs-1"> Years Of Experience</h3>
+          <h6 className="text-light fs-4 mt-2"> Years Of Experience</h6>
         </div>
       </div>
       {/* -------------------------------------------------------------- */}
@@ -214,7 +214,7 @@ export default function Home() {
         {data.map((item, index) => {
           // console.log("item", item.pic);
           return (
-            <div className="col-md-4 mb-4">
+            <div className="col-md-4  mb-4">
               <img className="img-fluid" src={item.pic} alt="" width="60%" />
               <h5 className="text-white mt-2"> {item.heading}</h5>
             </div>
@@ -291,6 +291,7 @@ export default function Home() {
           <div>
             <h6 className="text-light text-center">...Our Some...</h6>
             <h2 className="text-light text-center">Our Satisfied Clients</h2>
+           
           </div>
           {data1.map((item) => {
             // console.log("item", item.img);
@@ -301,7 +302,7 @@ export default function Home() {
             );
           })}
         </div>
-        <div className="col-md-3"></div>
+        {/* <div className="col-md-3"></div> */}
       </div>
       </div>
     </>
