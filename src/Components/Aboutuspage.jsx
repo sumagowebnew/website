@@ -4,7 +4,6 @@ import "../App.css";
 import group_img from "./images/Img2.png";
 import frame1 from "../Components/images/Frame with photo.png";
 import profile from "../Components/images/Start up Consultancy.png";
-import ceo from "../Components/images/ceocard.png";
 import dtmahesh from "../Components/images/mahesh.png";
 import dtshubham from "../Components/images/shubham.png";
 import dtakshada from "../Components/images/akshada.png";
@@ -41,7 +40,7 @@ import dtmahesht from "../Components/images/mahesht.png";
 import dtvikast from "../Components/images/vikast.png";
 import dtceo from "../Components/images/ceo.png";
 import { CiLinkedin } from "react-icons/ci";
-import {FaLinkedin} from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import aboutus from "../Components/images/aboutus.png";
 import { BiCaretRightCircle } from "react-icons/bi";
 import CountUp from "react-countup";
@@ -59,11 +58,8 @@ const Aboutuspage = () => {
           <div className="row">
             <div className="mt-1 col-md-5 text-center">
               <img src={frame1} className="img-fluid" alt="Frame 1" />
-              <h3 className="ms-5 text-start">
-                {" "}
-                &nbsp;&nbsp;We Do Everything...{" "}
-              </h3>
-              <p className="text-white ms-5 fs-5 text-start ">
+              <h3 className="ms-5 text-start">We Do Everything...</h3>
+              <p className="text-white ms-5 text-start ">
                 We undertake logic,intuition,imagination,
                 <br /> and reasoning to builda product.The core
                 <br />
@@ -194,11 +190,12 @@ const Aboutuspage = () => {
             <div className="col-md-6 col-lg-4 text-white mx-2">
               <div className="row bg-light bor mt-4 ">
                 <div className="col-8 col-md-9 text-md-end ">
-                  <h4 className="card-title">Ashwini Chaudhary <FaLinkedin/></h4>
-                  <p >HR executive</p>
+                  <h4 className="card-title">
+                    Ashwini Chaudhary  <a href="https://www.linkedin.com/in/ashwini-choudhary-35297a221/"><FaLinkedin/></a>
+                  </h4>
+                  <p>HR executive</p>
                 </div>
                 <div className="col-4 col-md-3">
-                 
                   <img
                     className="card-img rounded"
                     src={dtashwini}
@@ -218,7 +215,9 @@ const Aboutuspage = () => {
                   />
                 </div>
                 <div className="col-8 col-md-9 text-start">
-                  <h4 className="card-title"><FaLinkedin/> Deepika Jagtap</h4>
+                  <h4 className="card-title">
+                    <FaLinkedin /> Deepika Jagtap
+                  </h4>
                   <p>HR Executive</p>
                 </div>
               </div>
@@ -231,7 +230,9 @@ const Aboutuspage = () => {
             <div className="col-md-6 col-lg-4 text-white">
               <div className="row bg-light bor mt-4">
                 <div className="col-8 col-md-9 text-end text-md-end">
-                  <h4 className="card-title">Satish Aurange <FaLinkedin/></h4>
+                  <h4 className="card-title">
+                    Satish Aurange <a href="https://www.linkedin.com/in/satish-aurange-52592835/"> <FaLinkedin /></a>
+                  </h4>
                   <p>Chief Technology Officer</p>
                 </div>
                 <div className="col-4 col-md-3">
@@ -242,7 +243,7 @@ const Aboutuspage = () => {
                   />
                 </div>
               </div>
-{/*satish marwat mobile view */}
+              {/*satish marwat mobile view starts here*/}
               <div className="row bg-light bord mt-4 d-md-none">
                 <div className="col-4 col-md-3">
                   <img
@@ -252,14 +253,18 @@ const Aboutuspage = () => {
                   />
                 </div>
                 <div className="col-8 col-md-9 text-end">
-                  <h4 className="card-title"><FaLinkedin/> Satish Marwat</h4>
+                  <h4 className="card-title">
+                   <a href="https://www.linkedin.com/in/satish-mawrat-749a3a15/"> <FaLinkedin /></a> Satish Marwat
+                  </h4>
                   <p>Chief Operation Officer</p>
                 </div>
               </div>
-{/*satish marwat mobile view */}
+              {/*satish marwat mobile view ends here */}
               <div className="row bg-light bor mt-4 displaymobile">
                 <div className="col-8 col-md-9 text-end text-md-end">
-                  <h4 className="card-title">Satish Marwat <FaLinkedin/></h4>
+                  <h4 className="card-title">
+                    Satish Marwat <a href="https://www.linkedin.com/in/satish-mawrat-749a3a15/"><FaLinkedin /></a>
+                  </h4>
                   <p>Chief Operation Officer</p>
                 </div>
                 <div className="col-4 col-md-3">
@@ -273,7 +278,9 @@ const Aboutuspage = () => {
 
               <div className="row bg-light bor mt-4">
                 <div className="col-8 col-md-9 text-md-end">
-                  <h4 className="card-title">Prasad Pawar <FaLinkedin/></h4>
+                  <h4 className="card-title">
+                    Prasad Pawar <a href="https://www.linkedin.com/in/prasad-pawar-aaa80220b/"><FaLinkedin /></a> 
+                  </h4>
                   <p>Project Manager</p>
                 </div>
                 <div className="col-4 col-md-3">
@@ -286,11 +293,13 @@ const Aboutuspage = () => {
               </div>
             </div>
 
-            <div className="col-md-3 col-lg-2 mt-4">
+            <div className="col-md-3 col-lg-2 mt-2">
               <div class="card back text-center" style={{ width: "18rem;" }}>
                 <img src={dtceo} class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h1 class="card-title text-white fs-5">Sonali Gorade</h1>
+                  <h3 class="card-title text-white fs-5"><a href="https://www.linkedin.com/in/sonali-gorade-648a9a209/"><FaLinkedin/></a>
+                  <br/></h3>
+                  <h3 class="card-title text-white fs-6">Sonali Gorade</h3>
                   <p class="card-text">CE0</p>
                 </div>
               </div>
@@ -306,14 +315,18 @@ const Aboutuspage = () => {
                   />
                 </div>
                 <div className="col-8 col-md-9 text-start">
-                  <h4 className="card-title"><FaLinkedin/> Dipti Pawar</h4>
+                  <h4 className="card-title">
+                   <a href="https://www.linkedin.com/in/dipti-pawar-7aab98238/" ><FaLinkedin /></a> Dipti Pawar
+                  </h4>
                   <p>Business Analyst</p>
                 </div>
               </div>
-{/*Ashwini gite mobile view starts */}
+              {/*Ashwini gite mobile view starts */}
               <div className="row bg-light bor mt-4 d-md-none ">
                 <div className="col-8 col-md-9 text-end text-md-start">
-                  <h4 className="card-title">Ashwini Gite <FaLinkedin/></h4>
+                  <h4 className="card-title">
+                    Ashwini Gite <FaLinkedin />
+                  </h4>
                   <p>Sr. Business Development Executive</p>
                 </div>
                 <div className="col-4 col-md-3">
@@ -324,7 +337,7 @@ const Aboutuspage = () => {
                   />
                 </div>
               </div>
-{/*Ashwini gite mobile view ends*/}
+              {/*Ashwini gite mobile view ends*/}
               <div className="row bg-light bord mt-4 displaymobile">
                 <div className="col-4 col-md-3">
                   <img
@@ -334,7 +347,9 @@ const Aboutuspage = () => {
                   />
                 </div>
                 <div className="col-8 col-md-9 text-start">
-                  <h4 className="card-title"><FaLinkedin/> Ashwini Gite</h4>
+                  <h4 className="card-title">
+                    <FaLinkedin /> Ashwini Gite
+                  </h4>
                   <p>Sr. Business Development Executive</p>
                 </div>
               </div>
@@ -348,7 +363,9 @@ const Aboutuspage = () => {
                   />
                 </div>
                 <div className="col-8 col-md-9 text-start">
-                  <h4 className="card-title"><FaLinkedin/> Vrushali Varpe</h4>
+                  <h4 className="card-title">
+                    <FaLinkedin /> Vrushali Varpe
+                  </h4>
                   <p className="text-right">
                     Jr. Business Development Executive
                   </p>
@@ -363,7 +380,9 @@ const Aboutuspage = () => {
             <div className="col-md-6 col-lg-4 text-white mx-2 mt-2">
               <div className="row bg-light bor mt-1">
                 <div className="col-8 col-md-9 text-md-end">
-                  <h4 className="card-title">Aarti Pawar <FaLinkedin/></h4>
+                  <h4 className="card-title">
+                    Aarti Pawar <FaLinkedin />
+                  </h4>
                   <p>Accountant</p>
                 </div>
                 <div className="col-4 col-md-3">
@@ -386,7 +405,9 @@ const Aboutuspage = () => {
                   />
                 </div>
                 <div className="col-8 col-md-9 text-start">
-                  <h4 className="card-title"><FaLinkedin/> Shivam Shinde</h4>
+                  <h4 className="card-title">
+                    <FaLinkedin /> Shivam Shinde
+                  </h4>
                   <p>System Engineer</p>
                 </div>
               </div>
@@ -419,9 +440,11 @@ const Aboutuspage = () => {
                 src={dtmonika}
                 style={{ width: "20Rem", height: "20Rem" }}
               />
-              <h5 className="text-center ms-md-5 ms-0 text-white">
+              <h6 className="text-center ms-md-5 ms-0 text-white" ><FaLinkedin /></h6>
+              <h6 className="text-center ms-md-5 ms-0 text-white">
+              
                 MONIKA KOTHAVADE
-              </h5>
+              </h6>
               <p className="text-center ms-md-5 ms-0 text-white">
                 Social Media Manager
               </p>
@@ -433,6 +456,8 @@ const Aboutuspage = () => {
                 src={dtshweta}
                 style={{ width: "20Rem", height: "20Rem" }}
               />
+            <h6 className="text-center ms-0 text-white" ><FaLinkedin /></h6>
+
               <h5 className="text-center  ms-0 text-white">SHWETA JADE</h5>
               <p className="text-center  ms-0 text-white">Ui/Ux Designer</p>
             </div>
@@ -443,6 +468,8 @@ const Aboutuspage = () => {
                 src={frame1}
                 style={{ width: "20Rem", height: "20Rem" }}
               />
+              <h6 className="text-center  ms-0 text-white" ><FaLinkedin /></h6>
+
               <h5 className="text-center  ms-0 text-white">CHAITALI CHAVAN</h5>
               <p className="text-center  ms-0 text-white">Graphics Designer</p>
             </div>
@@ -915,209 +942,215 @@ const Aboutuspage = () => {
         {/*Training team section starts here */}
         <div class="container">
           <div class="container">
-        <div className="text-center mb-5">
-          <h2 className="mt-1">TRAINING TEAM</h2>
-          <div className="d-flex justify-content-center">
-            <hr className=" text-white w-25 text-center"></hr>
-          </div>
-          <h2>
-            "We believe in{" "}
-            <span className="text-danger">
-              Helping
-              <br />
-            </span>{" "}
-            people pay <span className="text-danger"> Attention</span> to what
-            matters"
-          </h2>
-        </div>
+            <div className="text-center mb-5">
+              <h2 className="mt-1 mt-sm-2">TRAINING TEAM</h2>
+              <div className="d-flex justify-content-center">
+                <hr className=" text-white w-25 text-center"></hr>
+              </div>
+              <h2>
+                "We believe in{" "}
+                <span className="text-danger">
+                  Helping
+                  <br />
+                </span>{" "}
+                people pay <span className="text-danger"> Attention</span> to
+                what matters"
+              </h2>
+            </div>
 
-        <div className="tree ">
-          <ul>
-            <li>
-              <a href="#">
-                <div className="mx-auto">
-                  <div
-                    className="card training-card bgc "
-                    // style={{ width: "14rem" }}
-                  >
-                    <center>
-                      <img
-                        src={dtamol}
-                        className="card-img-top pro-image img-fluid"
-                        alt="..."
-                      />
-                    </center>
-                    <div className="card-body" style={{ height: "5rem" }}>
-                      <h5 className="card-title training-card-title ">
-                      <FaLinkedin/><br/>
-                        Amol Pawar
-                      
-                      <p className="card-title training-card-title ">
-                        L&D Head
-                      </p>
-                      </h5>
-                    </div>
-                  </div>
-                </div>
-              </a>
-              <ul className="inn_line">
-                <li>
-                  <a href="#">
-                    <div className="mx-auto">
-                      <div
-                        className="card training-card bgc"
-                        style={{ width: "15rem" }}
-                      >
-                        <center>
-                          <img
-                            src={dtpratikshat}
-                            className="card-img-top pro-image"
-                            alt="..."
-                          />
-                        </center>
-                        <div className="card-body">
-                          <h5 className="card-title training-card-title ">
-                          <FaLinkedin/><br/>
-                            Pratiksha Karwate
-                          </h5>
-                          <p>Trainer</p>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </li>
+            <div className="tree ">
+              <ul>
                 <li>
                   <a href="#">
                     <div className="mx-auto">
                       <div
                         className="card training-card bgc "
-                        style={{ width: "15rem" }}
+                        // style={{ width: "14rem" }}
                       >
                         <center>
                           <img
-                            src={dtshwetat}
-                            className="card-img-top pro-image"
+                            src={dtamol}
+                            className="card-img-top pro-image img-fluid"
                             alt="..."
                           />
                         </center>
-                        <div className="card-body">
+                        <div className="card-body" style={{ height: "5rem" }}>
                           <h5 className="card-title training-card-title ">
-                          <FaLinkedin/><br/>
-                            Shweta Jade
+                           <a href="https://www.linkedin.com/in/amol-pawar-a46681261/"> <FaLinkedin /></a>
+                            <br />
+                            Amol Pawar
+                            <p className="card-title training-card-title ">
+                              L&D Head
+                            </p>
                           </h5>
-                          <p>Trainer</p>
                         </div>
                       </div>
                     </div>
                   </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <div className="mx-auto">
-                      <div
-                        className="card training-card bgc"
-                        style={{ width: "15rem" }}
-                      >
-                        <center>
-                          <img
-                            src={dtmahesht}
-                            className="card-img-top pro-image"
-                            alt="..."
-                          />
-                        </center>
-                        <div className="card-body">
-                          <h5 className="card-title training-card-title ">
-                          <FaLinkedin/><br/>
-                            Mahesh Mahajan
-                          </h5>
-                          <p>Trainer</p>
+                  <ul className="inn_line">
+                    <li>
+                      <a href="#">
+                        <div className="mx-auto">
+                          <div
+                            className="card training-card bgc"
+                            style={{ width: "15rem" }}
+                          >
+                            <center>
+                              <img
+                                src={dtpratikshat}
+                                className="card-img-top pro-image"
+                                alt="..."
+                              />
+                            </center>
+                            <div className="card-body">
+                              <h5 className="card-title training-card-title ">
+                              <a href="https://www.linkedin.com/in/pratiksha-karavate-7a8255217/"> <FaLinkedin /></a>
+                                <br />
+                                Pratiksha Karwate
+                              </h5>
+                              <p>Trainer</p>
+                            </div>
+                          </div>
                         </div>
-                      </div>
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <div className="mx-auto">
-                      <div
-                        className="card training-card bgc"
-                        style={{ width: "15rem" }}
-                      >
-                        <center>
-                          <img
-                            src={dtvikast}
-                            className="card-img-top pro-image"
-                            alt="..."
-                          />
-                        </center>
-                        <div className="card-body">
-                          <h5 className="card-title training-card-title ">
-                          <FaLinkedin/><br/>
-                            Vikas Wagh
-                          </h5>
-                          <p>Trainer</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div className="mx-auto">
+                          <div
+                            className="card training-card bgc "
+                            style={{ width: "15rem" }}
+                          >
+                            <center>
+                              <img
+                                src={dtshwetat}
+                                className="card-img-top pro-image"
+                                alt="..."
+                              />
+                            </center>
+                            <div className="card-body">
+                              <h5 className="card-title training-card-title ">
+                               <a href="https://www.linkedin.com/in/shweta-jade-b52354248/"/> <FaLinkedin/><a/>
+                                <br />
+                                Shweta Jade
+                              </h5>
+                              <p>Trainer</p>
+                            </div>
+                          </div>
                         </div>
-                      </div>
-                    </div>
-                  </a>
-                </li>
-                <li className="">
-                  <a href="#">
-                    <div className="mx-auto ">
-                      <div
-                        className="card training-card bgc"
-                        style={{ width: "15rem" }}
-                      >
-                        <center>
-                          <img
-                            src={dtaakash}
-                            className="card-img-top pro-image"
-                            alt="..."
-                          />
-                        </center>
-                        <div className="card-body">
-                          <h5 className="card-title training-card-title ">
-                          <FaLinkedin/><br/>
-                            Aakash Rajput
-                          </h5>
-                          <p>Trainer</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div className="mx-auto">
+                          <div
+                            className="card training-card bgc"
+                            style={{ width: "15rem" }}
+                          >
+                            <center>
+                              <img
+                                src={dtmahesht}
+                                className="card-img-top pro-image"
+                                alt="..."
+                              />
+                            </center>
+                            <div className="card-body">
+                              <h5 className="card-title training-card-title ">
+                                <a href="https://www.linkedin.com/in/mahesh-mahajan-3170741a7/"><FaLinkedin /></a>
+                                <br />
+                                Mahesh Mahajan
+                              </h5>
+                              <p>Trainer</p>
+                            </div>
+                          </div>
                         </div>
-                      </div>
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <div className="mx-auto">
-                      <div
-                        className="card training-card bgc"
-                        style={{ width: "15rem" }}
-                      >
-                        <center>
-                          <img
-                            src={profile}
-                            className="card-img-top pro-image"
-                            alt="..."
-                          />
-                        </center>
-                        <div className="card-body">
-                          <h5 className="card-title training-card-title ">
-                          <FaLinkedin/><br/>
-                            Shruti Pardeshi
-                          </h5>
-                          <p>Trainer</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div className="mx-auto">
+                          <div
+                            className="card training-card bgc"
+                            style={{ width: "15rem" }}
+                          >
+                            <center>
+                              <img
+                                src={dtvikast}
+                                className="card-img-top pro-image"
+                                alt="..."
+                              />
+                            </center>
+                            <div className="card-body">
+                              <h5 className="card-title training-card-title ">
+                                <FaLinkedin />
+                                <br />
+                                Vikas Wagh
+                              </h5>
+                              <p>Trainer</p>
+                            </div>
+                          </div>
                         </div>
-                      </div>
-                    </div>
-                  </a>
+                      </a>
+                    </li>
+                    <li className="">
+                      <a href="#">
+                        <div className="mx-auto ">
+                          <div
+                            className="card training-card bgc"
+                            style={{ width: "15rem" }}
+                          >
+                            <center>
+                              <img
+                                src={dtaakash}
+                                className="card-img-top pro-image"
+                                alt="..."
+                              />
+                            </center>
+                            <div className="card-body">
+                              <h5 className="card-title training-card-title ">
+                                <FaLinkedin />
+                                <br />
+                                Aakash Rajput
+                              </h5>
+                              <p>Trainer</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div className="mx-auto">
+                          <div
+                            className="card training-card bgc"
+                            style={{ width: "15rem" }}
+                          >
+                            <center>
+                              <img
+                                src={profile}
+                                className="card-img-top pro-image"
+                                alt="..."
+                              />
+                            </center>
+                            <div className="card-body">
+                              <h5 className="card-title training-card-title ">
+                                <a href="https://www.linkedin.com/in/shruti-pardeshi-a9381325b/"><FaLinkedin /></a>
+                                <br />
+                                Shruti Pardeshi
+                              </h5>
+                              <p>Trainer</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
                 </li>
               </ul>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
-        </div>
-        </div>
-        
+
         {/*Training team section ends here */}
 
         <div class="container text-start text-light bg-rgb(20, 20,20) mb-3">
