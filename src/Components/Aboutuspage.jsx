@@ -440,23 +440,31 @@ const Aboutuspage = () => {
                 src={dtmonika}
                 style={{ width: "20Rem", height: "20Rem" }}
               />
-              <h6 className="text-center ms-md-5 ms-0 text-white" ><FaLinkedin /></h6>
+              <h6 className="text-center ms-md-5 ms-0 text-white" >
+                <a href="https://www.linkedin.com/in/monika-kothawade-255165129/">
+                <FaLinkedin />
+                </a>
+                </h6>
               <h6 className="text-center ms-md-5 ms-0 text-white">
               
-                MONIKA KOTHAVADE
+                MONIKA KOTHAWADE
               </h6>
               <p className="text-center ms-md-5 ms-0 text-white">
                 Social Media Manager
               </p>
             </div>
 
-            <div className="col-md-4 col-12 mt-md-5">
+            <div className="col-md-4 col-12 mt-md-5 mt-3">
               <img
                 className="img-fluid ms-md-4 mt-md-5  me-5"
                 src={dtshweta}
                 style={{ width: "20Rem", height: "20Rem" }}
               />
-            <h6 className="text-center ms-0 text-white" ><FaLinkedin /></h6>
+            <h6 className="text-center ms-0 text-white" >
+              <a href="https://www.linkedin.com/in/shweta-jade-b52354248/">
+              <FaLinkedin />
+              </a>
+              </h6>
 
               <h5 className="text-center  ms-0 text-white">SHWETA JADE</h5>
               <p className="text-center  ms-0 text-white">Ui/Ux Designer</p>
@@ -468,7 +476,10 @@ const Aboutuspage = () => {
                 src={frame1}
                 style={{ width: "20Rem", height: "20Rem" }}
               />
-              <h6 className="text-center  ms-0 text-white" ><FaLinkedin /></h6>
+              <h6 className="text-center  ms-0 text-white" >
+                <a href="https://www.linkedin.com/in/chaitali-chavan-52785b263/">
+                <FaLinkedin />
+                </a></h6>
 
               <h5 className="text-center  ms-0 text-white">CHAITALI CHAVAN</h5>
               <p className="text-center  ms-0 text-white">Graphics Designer</p>
@@ -501,7 +512,7 @@ const Aboutuspage = () => {
           </div>
         </div>
         {/* Call to Action Part ends  here*/}
-        <div className="text-center mt-2 mb-sm-5">
+        <div className="text-center mt-3 mb-sm-5">
           <h2>DEVELOPMENT TEAM</h2>
           <div className="d-flex justify-content-center">
             <hr className=" text-white w-25 text-center"></hr>
@@ -817,7 +828,8 @@ const Aboutuspage = () => {
                   <img src={dtmahesh} />
                 </div>
                 <div className="caption">
-                  <h3>Mahesh Mahajan</h3>
+                  <FaLinkedin/>
+                  <h6>Mahesh Mahajan</h6>
                   <p>Developer</p>
                 </div>
               </div>
@@ -829,7 +841,8 @@ const Aboutuspage = () => {
                   <img src={dtakshada} />
                 </div>
                 <div className="caption">
-                  <h3>Akshada Sanap</h3>
+                <FaLinkedin/>
+                  <h6>Akshada Sanap</h6>
                   <p>Developer</p>
                 </div>
               </div>
@@ -841,7 +854,8 @@ const Aboutuspage = () => {
                   <img src={dtrutuja} />
                 </div>
                 <div className="caption">
-                  <h3>Rutuja Patil</h3>
+                <FaLinkedin/>
+                  <h6>Rutuja Patil</h6>
                   <p>Developer</p>
                 </div>
               </div>
@@ -853,20 +867,22 @@ const Aboutuspage = () => {
                   <img src={dtshubham} />
                 </div>
                 <div className="caption">
-                  <h3>Shubham Kothavade</h3>
+                <FaLinkedin/>
+                  <h6>Shubham Kothavade</h6>
                   <p>Developer</p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="row main mt-md-4 mt-0">
+          <div className="row main mt-md-5 mt-2">
             <div className="col-md-3 col-6 d-flex justify-content-center">
               <div className="profile-card">
                 <div className="img">
                   <img src={dtrajnandini} />
                 </div>
                 <div className="caption">
-                  <h3>Rajnandini Rajput</h3>
+                <FaLinkedin/>
+                  <h6>Rajnandini Rajput</h6>
                   <p>Developer</p>
                 </div>
               </div>
@@ -878,7 +894,8 @@ const Aboutuspage = () => {
                   <img src={dtmitisha} />
                 </div>
                 <div className="caption">
-                  <h3>Mitisha patel</h3>
+                <FaLinkedin/>
+                  <h6>Mitisha patel</h6>
                   <p>Developer</p>
                 </div>
               </div>
@@ -890,7 +907,8 @@ const Aboutuspage = () => {
                   <img src={dtaditi} />
                 </div>
                 <div className="caption">
-                  <h3>Aditi Sonawane</h3>
+                <FaLinkedin/>
+                  <h6>Aditi Sonawane</h6>
                   <p>Developer</p>
                 </div>
               </div>
@@ -902,7 +920,8 @@ const Aboutuspage = () => {
                   <img src={dtpurva} />
                 </div>
                 <div className="caption">
-                  <h3>Purva Diwate</h3>
+                <FaLinkedin/>
+                  <h6>Purva Diwate</h6>
                   <p>Developer</p>
                 </div>
               </div>
