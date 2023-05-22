@@ -81,7 +81,7 @@
  .navbar-nav .nav-link:not(.active) {
   color: white;
 }
-.nav1 {
+nav {
   position: fixed;
   top: 0;
   left: 0;
