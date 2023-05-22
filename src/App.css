@@ -24,7 +24,7 @@
   background-size: cover;
 }
 .App {
- 
+  /* text-align:center; */
   background-image: radial-gradient(rgb(45, 24, 24), rgb(20, 21, 20), rgb(20, 20, 21));
   color: white;
 }
@@ -81,13 +81,11 @@
  .navbar-nav .nav-link:not(.active) {
   color: white;
 }
-nav1 {
+nav {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 999;
+  background-image: linear-gradient(rgb(45, 24, 24), rgb(20, 21, 20), rgb(20, 20, 21));
 }
-
-
-
-

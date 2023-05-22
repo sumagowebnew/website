@@ -25,7 +25,7 @@ export default function Home() {
 
   return (
     <>
-    <div className="align">
+    <div className="align" style={{ marginTop: "6rem" }}>
       <div className="row">
         <div className="col-2" style={{ marginTop: "10rem" }}>
           <div className="d-flex justify-content-start">
@@ -80,15 +80,15 @@ export default function Home() {
             <div class="row">
               <div class="col-md-6  mt-5">
                 <h1> BETTER SOLUTIONS FOR YOUR BUSINESS</h1>
-                <br />
-                <p className="text-start">
+               
+                <p className=""style={{textAlign:"justify"}}>
                   Lorem ipsum is simply dummy text of the printing
-                  <br />
+                 
                   and typesetting industry.Lorem ipsum is simply
-                  <br />
+                 
                   dummy text of the printing and typesetting industry.
                 </p>
-                <br />
+             
                 <button
                   type="button"
                   class="btn btn-danger btn-sm"
@@ -139,15 +139,15 @@ export default function Home() {
             <h1 className="text-danger d-md-block d-none">
               About Sumago Infotech
             </h1>
-            <br />
-            <p>
+          
+            <p className=""style={{textAlign:"justify"}}>
               Lorem ipsum is simply dummy text of the printing
-              <br />
+            
               and typesetting industry.Lorem ipsum is simply
-              <br />
+            
               dummy text of the printing and typesetting industry.
             </p>
-            <br />
+           
             <button
               type="button"
               class="btn btn-danger btn-sm"
@@ -225,19 +225,19 @@ export default function Home() {
         <div class="row">
           <div class="col-md-6  mt-5">
             <h2> We Are Experts,In Our Work!</h2>
-            <br />
-            <p>
+          
+            <p className=""style={{textAlign:"justify"}}>
               Lorem ipsum is simply dummy text of the printing
-              <br />
+             
               and typesetting industry.Lorem ipsum is simply
-              <br />
+             
               dummy text of the printing and typesetting industry.
             </p>
-            <p>
+            <p className="">
               Lorem ipsum is simply dummy text of the printing
-              <br />
+             
               and typesetting industry.Lorem ipsum is simply
-              <br />
+              
               dummy text of the printing and typesetting industry.
             </p>
           </div>

@@ -44,11 +44,14 @@ import { FaLinkedin } from "react-icons/fa";
 import aboutus from "../Components/images/aboutus.png";
 import { BiCaretRightCircle } from "react-icons/bi";
 import CountUp from "react-countup";
+import Wheel from "./Circle/Wheel";
+import TripleCircle from "./Circle/TripleCircle";
+import InnerCircle from "./Circle/InnerCircle";
 
 const Aboutuspage = () => {
   return (
     <>
-      <div className="">
+      <div className=""style={{ marginTop: "4rem" }}>
         <div className="container-fluid ">
           <br />
           <br />
@@ -58,20 +61,23 @@ const Aboutuspage = () => {
           <div className="row">
             <div className="mt-1 col-md-5 text-center">
               <img src={frame1} className="img-fluid" alt="Frame 1" />
-              <h3 className="ms-5 text-start">We Do Everything...</h3>
-              <p className="text-white ms-5 text-start ">
+              <h3 className="ms-5 text-start">
+                {" "}
+                &nbsp;&nbsp;We Do Everything...{" "}
+              </h3>
+              <p className="text-white ms-5 fs-5 text-start ">
                 We undertake logic,intuition,imagination,
-                <br /> and reasoning to builda product.The core
-                <br />
+                 and reasoning to builda product.The core
+                
                 of our methodology remains at designing
-                <br />
+                
                 products that resonate with the wants and
-                <br />
+                
                 expectations of the customers.
-                <br />
+                
                 It helps designers focus on user needs first
-                <br /> and foremost,and come up with effective
-                <br />
+                 and foremost,and come up with effective
+                
                 solutions to meet those needs.
               </p>
             </div>
@@ -99,7 +105,7 @@ const Aboutuspage = () => {
                   <h1 className="text-center mt-2">Our Mission</h1>
 
                   <div>
-                    <p className="mt-md-4 text-start">
+                    <p className="mt-md-4"style={{textAlign:"justify"}}>
                       At Sumago Infotech, We “Strive with Technology” to provide
                       the most effective and affordable service that fulfills
                       our customer’s needs and budget. We provide customized
@@ -116,7 +122,7 @@ const Aboutuspage = () => {
               <div className="">
                 <div className="cd text-white shadow-lg rounded ms-0 ms-md-3">
                   <h1 className="text-center mt-2 ">Our Vision</h1>
-                  <p className="mt-md-4 text-start">
+                  <p className="mt-md-4 "style={{textAlign:"justify"}}>
                     {" "}
                     We aspire to be the global sourcing choice of the world
                     market and revolutionizes the way service processes
@@ -165,7 +171,7 @@ const Aboutuspage = () => {
             </div>
             <h1 className=" fw-bold text-center mb-4">Team</h1>
             <div className="border border-light border-2 rounded-3  p-4">
-              <p>
+              <p className=""style={{textAlign:"justify"}}>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Laborum consectetur blanditiis tempora alias assumenda placeat
                 magni sed debitis corporis. Quam sint sapiente perspiciatis
@@ -1205,8 +1211,13 @@ const Aboutuspage = () => {
             </div>
           </div>
         </div>
+       
       </div>
-    </>
+      <div> 
+     <InnerCircle/>
+      </div>   
+      
+</>
   );
 };
 

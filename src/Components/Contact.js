@@ -8,7 +8,7 @@ import '../Components/Contact.css'
 export default function Contact() {
   return (
     <>
-      
+      <div className=""style={{ marginTop: "7rem" }}>
       <div>
         <h2 className="text-light align">Get In Touch</h2>
       </div>
@@ -16,11 +16,11 @@ export default function Contact() {
         <div className="col-lg-1 col-md-1"></div>
         <div className="col-lg-5 col-md-5 col-12 p-3 p-lg-5 p-md-3 back text-start rounded-3 image">
           <h3>Let's make something great!</h3>
-       <p>
+       <p className=""style={{textAlign:"justify"}}>
             If you would like to find out more about what
-            <br />
+            
             Sumago Infotech can do for your business or to
-            <br />
+            
             receive a project quote,don't hesitate to contact us.
           </p>
 
@@ -119,6 +119,7 @@ export default function Contact() {
             </button>
           </div>
         </div>
+      </div>
       </div>
     </>
   );

@@ -26,7 +26,7 @@ export default function Life() {
   return (
     <>
       {/* life */}
-      <div className="container">
+      <div className="container"style={{ marginTop: "6rem" }}>
         <div className="row">
           <div className="col-md-6 d-flex justify-content-center align-items-center text-start">
             <div className="col-md-6 text-white">
