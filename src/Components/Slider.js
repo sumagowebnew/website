@@ -70,6 +70,7 @@ export default function Slider() {
    <img src={image3} alt="image3"  className='img-fluid' width="75%"/>
    <img src={image4} alt="image4"  className='img-fluid' width="75%"/>
    <img src={image5} alt="image5"  className='img-fluid' width="75%"/>
+   
 </Carousel>
 
     </div>

@@ -11,7 +11,7 @@ import './Industries.css';
 export default function Industries() {
   return (
     <>
-    <div className="align">
+    <div className="align"style={{ marginTop: "7rem" }}>
       <div className="mt-3">
         {/* <span className="fs-6 text-light">We work with you, Not for you</span> */}
 
@@ -57,18 +57,18 @@ export default function Industries() {
             <h6> We Are Here For You ____________________</h6>
 
             <h2>Industry Specific Solutions And Services</h2>
-            <br />
-          <p>
+         
+          <p className=""style={{textAlign:"justify"}}>
               Lorem ipsum is simply dummy text of the printing
-              <br />
+            
               and typesetting industry.Lorem ipsum is simply dummy
-              <br />
+            
               text of the printing and typesetting industry.
-              <br />
+            
               Lorem ipsum is simply dummy text of the printing
-              <br />
+              
               and typesetting industry.
-              <br />
+             
               </p>
           </div>
 

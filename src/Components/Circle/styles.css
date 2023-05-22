@@ -1,0 +1,132 @@
+.circle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.outer-circle {
+  width: 500px;
+  height: 500px;
+  border: 2px solid  rgb(244, 241, 241);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.middle-circle {
+  width: 300px;
+  height: 300px;
+  border: 2px solid rgb(244, 241, 241);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.small-circle {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #333;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.small-circle:nth-child(1) {
+  position: absolute;
+  top: 26pxpx;
+  left: 52%px;
+  transform: translate(2%, -158%);
+  height: 88px;
+  width: 88px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid  rgb(244, 241, 241);
+  z-index: 2;
+}
+
+.small-circle:nth-child(2) {
+  top: 26pxpx;
+  position: absolute;
+  left: 52%;
+  transform: translate(84%,-72%);
+  height: 88px;
+  width: 88px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid  rgb(244, 241, 241);
+  z-index: 2;
+}
+.small-circle:nth-child(3) {
+  top: 26pxpx;
+  position: absolute;
+  left: 52%;
+  transform: translate(83%,73%);
+  height: 88px;
+  width: 88px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid rgb(244, 241, 241);
+  z-index: 2;
+}
+.small-circle:nth-child(4) {
+  top: 26pxpx;
+  position: absolute;
+  left: 52%;
+  transform: translate(-46%,157%);
+  height: 88px;
+  width: 88px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid rgb(244, 241, 241);
+  z-index: 2;
+}
+
+.small-circle:nth-child(5) {
+  top: 26pxpx;
+  position: absolute;
+  left: 52%;
+  transform: translate(-188%,83%);
+  height: 88px;
+  width: 88px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid  rgb(244, 241, 241);
+  z-index: 2;
+}
+.small-circle:nth-child(6) {
+     top: 26pxpx;
+    position: absolute;
+    left: 52%;
+    transform: translate(-195%,-71%);
+    height: 88px;
+    width: 88px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 2px solid  rgb(244, 241, 241);
+    z-index: 2;
+}
+
+.small-circle:nth-child(7) {
+  bottom: 71%;
+  left: 2%;
+}
+
+.small-circle:nth-child(8) {
+  bottom: 25%;
+  right: 25%;
+}
+
+.inner-circle {
+  width: 170px;
+  height: 170px;
+  border: 2px solid #333;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

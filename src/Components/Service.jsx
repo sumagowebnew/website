@@ -11,7 +11,7 @@ export default function Service() {
                 {/* // -------------------------------------------------------------------------
     // services */}
 
-            <div className="container">
+            <div className="container"style={{ marginTop: "5rem" }}>
                 <div className="row d-flex">
                     <div className="col-md-6">
                         <img className='img-Group img-fluid' src={Group} alt="" />
