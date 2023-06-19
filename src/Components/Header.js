@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-rgb(20, 20,20) mb-5">
-        <div className="container-fluid nav">
+        <div className="container-fluid nav1">
           <NavLink className="navbar-brand" to="/">
             <img src={photo} className="img-fluid" width="250rem" />
           </NavLink>

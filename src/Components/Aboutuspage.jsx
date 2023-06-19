@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Aboutuspage.css";
 import "../App.css";
 import group_img from "./images/Img2.png";
@@ -47,11 +47,24 @@ import CountUp from "react-countup";
 import Wheel from "./Circle/Wheel";
 import TripleCircle from "./Circle/TripleCircle";
 import InnerCircle from "./Circle/InnerCircle";
+import axios from "axios";
 
 const Aboutuspage = () => {
+  const [data, setData] = useState([])
+  useEffect(() => {
+    axios
+      .get("")
+      .then((resp) => {
+        console.log("resp in client logo", resp);
+        setData(resp.data)
+      })
+      .catch((err) => {
+        console.log("err", err);
+      });
+  }, []);
   return (
     <>
-      <div className=""style={{ marginTop: "4rem" }}>
+      <div className="" style={{ marginTop: "4rem" }}>
         <div className="container-fluid ">
           <br />
           <br />
@@ -67,17 +80,17 @@ const Aboutuspage = () => {
               </h3>
               <p className="text-white ms-5 fs-5 text-start ">
                 We undertake logic,intuition,imagination,
-                 and reasoning to builda product.The core
-                
+                and reasoning to builda product.The core
+
                 of our methodology remains at designing
-                
+
                 products that resonate with the wants and
-                
+
                 expectations of the customers.
-                
+
                 It helps designers focus on user needs first
-                 and foremost,and come up with effective
-                
+                and foremost,and come up with effective
+
                 solutions to meet those needs.
               </p>
             </div>
@@ -105,7 +118,7 @@ const Aboutuspage = () => {
                   <h1 className="text-center mt-2">Our Mission</h1>
 
                   <div>
-                    <p className="mt-md-4"style={{textAlign:"justify"}}>
+                    <p className="mt-md-4" style={{ textAlign: "justify" }}>
                       At Sumago Infotech, We “Strive with Technology” to provide
                       the most effective and affordable service that fulfills
                       our customer’s needs and budget. We provide customized
@@ -122,7 +135,7 @@ const Aboutuspage = () => {
               <div className="">
                 <div className="cd text-white shadow-lg rounded ms-0 ms-md-3">
                   <h1 className="text-center mt-2 ">Our Vision</h1>
-                  <p className="mt-md-4 "style={{textAlign:"justify"}}>
+                  <p className="mt-md-4 " style={{ textAlign: "justify" }}>
                     {" "}
                     We aspire to be the global sourcing choice of the world
                     market and revolutionizes the way service processes
@@ -171,7 +184,7 @@ const Aboutuspage = () => {
             </div>
             <h1 className=" fw-bold text-center mb-4">Team</h1>
             <div className="border border-light border-2 rounded-3  p-4">
-              <p className=""style={{textAlign:"justify"}}>
+              <p className="" style={{ textAlign: "justify" }}>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Laborum consectetur blanditiis tempora alias assumenda placeat
                 magni sed debitis corporis. Quam sint sapiente perspiciatis
@@ -197,7 +210,7 @@ const Aboutuspage = () => {
               <div className="row bg-light bor mt-4 ">
                 <div className="col-8 col-md-9 text-md-end ">
                   <h4 className="card-title">
-                    Ashwini Chaudhary  <a href="https://www.linkedin.com/in/ashwini-choudhary-35297a221/"><FaLinkedin/></a>
+                    Ashwini Chaudhary  <a href="https://www.linkedin.com/in/ashwini-choudhary-35297a221/"><FaLinkedin /></a>
                   </h4>
                   <p>HR executive</p>
                 </div>
@@ -260,7 +273,7 @@ const Aboutuspage = () => {
                 </div>
                 <div className="col-8 col-md-9 text-end">
                   <h4 className="card-title">
-                   <a href="https://www.linkedin.com/in/satish-mawrat-749a3a15/"> <FaLinkedin /></a> Satish Marwat
+                    <a href="https://www.linkedin.com/in/satish-mawrat-749a3a15/"> <FaLinkedin /></a> Satish Marwat
                   </h4>
                   <p>Chief Operation Officer</p>
                 </div>
@@ -285,7 +298,7 @@ const Aboutuspage = () => {
               <div className="row bg-light bor mt-4">
                 <div className="col-8 col-md-9 text-md-end">
                   <h4 className="card-title">
-                    Prasad Pawar <a href="https://www.linkedin.com/in/prasad-pawar-aaa80220b/"><FaLinkedin /></a> 
+                    Prasad Pawar <a href="https://www.linkedin.com/in/prasad-pawar-aaa80220b/"><FaLinkedin /></a>
                   </h4>
                   <p>Project Manager</p>
                 </div>
@@ -303,10 +316,10 @@ const Aboutuspage = () => {
               <div class="card back text-center" style={{ width: "18rem;" }}>
                 <img src={dtceo} class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h3 class="card-title text-white fs-5"><a href="https://www.linkedin.com/in/sonali-gorade-648a9a209/"><FaLinkedin/></a>
-                  <br/></h3>
+                  <h3 class="card-title text-white fs-5"><a href="https://www.linkedin.com/in/sonali-gorade-648a9a209/"><FaLinkedin /></a>
+                    <br /></h3>
                   <h3 class="card-title text-white fs-6">Sonali Gorade</h3>
-                  <p class="card-text">CE0</p>
+                  <p class="card-text">CEO</p>
                 </div>
               </div>
             </div>
@@ -322,7 +335,7 @@ const Aboutuspage = () => {
                 </div>
                 <div className="col-8 col-md-9 text-start">
                   <h4 className="card-title">
-                   <a href="https://www.linkedin.com/in/dipti-pawar-7aab98238/" ><FaLinkedin /></a> Dipti Pawar
+                    <a href="https://www.linkedin.com/in/dipti-pawar-7aab98238/" ><FaLinkedin /></a> Dipti Pawar
                   </h4>
                   <p>Business Analyst</p>
                 </div>
@@ -448,11 +461,11 @@ const Aboutuspage = () => {
               />
               <h6 className="text-center ms-md-5 ms-0 text-white" >
                 <a href="https://www.linkedin.com/in/monika-kothawade-255165129/">
-                <FaLinkedin />
+                  <FaLinkedin />
                 </a>
-                </h6>
+              </h6>
               <h6 className="text-center ms-md-5 ms-0 text-white">
-              
+
                 MONIKA KOTHAWADE
               </h6>
               <p className="text-center ms-md-5 ms-0 text-white">
@@ -466,10 +479,10 @@ const Aboutuspage = () => {
                 src={dtshweta}
                 style={{ width: "20Rem", height: "20Rem" }}
               />
-            <h6 className="text-center ms-0 text-white" >
-              <a href="https://www.linkedin.com/in/shweta-jade-b52354248/">
-              <FaLinkedin />
-              </a>
+              <h6 className="text-center ms-0 text-white" >
+                <a href="https://www.linkedin.com/in/shweta-jade-b52354248/">
+                  <FaLinkedin />
+                </a>
               </h6>
 
               <h5 className="text-center  ms-0 text-white">SHWETA JADE</h5>
@@ -484,7 +497,7 @@ const Aboutuspage = () => {
               />
               <h6 className="text-center  ms-0 text-white" >
                 <a href="https://www.linkedin.com/in/chaitali-chavan-52785b263/">
-                <FaLinkedin />
+                  <FaLinkedin />
                 </a></h6>
 
               <h5 className="text-center  ms-0 text-white">CHAITALI CHAVAN</h5>
@@ -834,7 +847,7 @@ const Aboutuspage = () => {
                   <img src={dtmahesh} />
                 </div>
                 <div className="caption">
-                  <FaLinkedin/>
+                  <FaLinkedin />
                   <h6>Mahesh Mahajan</h6>
                   <p>Developer</p>
                 </div>
@@ -847,7 +860,7 @@ const Aboutuspage = () => {
                   <img src={dtakshada} />
                 </div>
                 <div className="caption">
-                <FaLinkedin/>
+                  <FaLinkedin />
                   <h6>Akshada Sanap</h6>
                   <p>Developer</p>
                 </div>
@@ -860,7 +873,7 @@ const Aboutuspage = () => {
                   <img src={dtrutuja} />
                 </div>
                 <div className="caption">
-                <FaLinkedin/>
+                  <FaLinkedin />
                   <h6>Rutuja Patil</h6>
                   <p>Developer</p>
                 </div>
@@ -873,7 +886,7 @@ const Aboutuspage = () => {
                   <img src={dtshubham} />
                 </div>
                 <div className="caption">
-                <FaLinkedin/>
+                  <FaLinkedin />
                   <h6>Shubham Kothavade</h6>
                   <p>Developer</p>
                 </div>
@@ -887,7 +900,7 @@ const Aboutuspage = () => {
                   <img src={dtrajnandini} />
                 </div>
                 <div className="caption">
-                <FaLinkedin/>
+                  <FaLinkedin />
                   <h6>Rajnandini Rajput</h6>
                   <p>Developer</p>
                 </div>
@@ -900,7 +913,7 @@ const Aboutuspage = () => {
                   <img src={dtmitisha} />
                 </div>
                 <div className="caption">
-                <FaLinkedin/>
+                  <FaLinkedin />
                   <h6>Mitisha patel</h6>
                   <p>Developer</p>
                 </div>
@@ -913,7 +926,7 @@ const Aboutuspage = () => {
                   <img src={dtaditi} />
                 </div>
                 <div className="caption">
-                <FaLinkedin/>
+                  <FaLinkedin />
                   <h6>Aditi Sonawane</h6>
                   <p>Developer</p>
                 </div>
@@ -926,7 +939,7 @@ const Aboutuspage = () => {
                   <img src={dtpurva} />
                 </div>
                 <div className="caption">
-                <FaLinkedin/>
+                  <FaLinkedin />
                   <h6>Purva Diwate</h6>
                   <p>Developer</p>
                 </div>
@@ -990,7 +1003,7 @@ const Aboutuspage = () => {
                     <div className="mx-auto">
                       <div
                         className="card training-card bgc "
-                        // style={{ width: "14rem" }}
+                      // style={{ width: "14rem" }}
                       >
                         <center>
                           <img
@@ -1001,7 +1014,7 @@ const Aboutuspage = () => {
                         </center>
                         <div className="card-body" style={{ height: "5rem" }}>
                           <h5 className="card-title training-card-title ">
-                           <a href="https://www.linkedin.com/in/amol-pawar-a46681261/"> <FaLinkedin /></a>
+                            <a href="https://www.linkedin.com/in/amol-pawar-a46681261/"> <FaLinkedin /></a>
                             <br />
                             Amol Pawar
                             <p className="card-title training-card-title ">
@@ -1029,7 +1042,7 @@ const Aboutuspage = () => {
                             </center>
                             <div className="card-body">
                               <h5 className="card-title training-card-title ">
-                              <a href="https://www.linkedin.com/in/pratiksha-karavate-7a8255217/"> <FaLinkedin /></a>
+                                <a href="https://www.linkedin.com/in/pratiksha-karavate-7a8255217/"> <FaLinkedin /></a>
                                 <br />
                                 Pratiksha Karwate
                               </h5>
@@ -1055,7 +1068,7 @@ const Aboutuspage = () => {
                             </center>
                             <div className="card-body">
                               <h5 className="card-title training-card-title ">
-                               <a href="https://www.linkedin.com/in/shweta-jade-b52354248/"/> <FaLinkedin/><a/>
+                                <a href="https://www.linkedin.com/in/shweta-jade-b52354248/" /> <FaLinkedin /><a />
                                 <br />
                                 Shweta Jade
                               </h5>
@@ -1211,13 +1224,13 @@ const Aboutuspage = () => {
             </div>
           </div>
         </div>
-       
+
       </div>
-      <div> 
-     <InnerCircle/>
-      </div>   
-      
-</>
+      <div>
+        {/* <InnerCircle />  */}
+      </div>
+
+    </>
   );
 };
 

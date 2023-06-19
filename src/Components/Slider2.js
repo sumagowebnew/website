@@ -1,6 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import data2 from "./data2";
+import axios from "axios";
 export default function Slider2() {
+  useEffect(() => {
+    axios
+      .get("")
+      .then((resp) => {
+        console.log("resp in client logo", resp);
+      })
+      .catch((err) => {
+        console.log("err", err);
+      });
+  }, []);
   return (
     <>
       <div className="mt-3">
@@ -20,7 +31,7 @@ export default function Slider2() {
           className="fs-3 text-light"
           style={{ display: "block", marginTop: "-0.6em" }}
         >
-         Trusted Companies
+          Trusted Companies
         </span>
       </div>
       <div className="row mt-5">

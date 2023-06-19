@@ -19,20 +19,32 @@ import Img from '../Life/LifeImages/Img.png'
 import Img2 from '../Life/LifeImages/Img2.png'
 import image1 from '../Life/LifeImages/image1.png'
 import { AiOutlineRightCircle } from "react-icons/ai";
+import { Tab, Tabs } from 'react-bootstrap'
+import { useEffect } from 'react'
+import axios from 'axios'
+import { useState } from 'react'
 
 
 
 export default function Life() {
+  const [data, setData] = useState([])
+  useEffect(() => {
+    axios.get("").then((resp) => {
+      console.log("resp", resp);
+    }).catch((err) => {
+      console.log("err", err);
+    })
+  }, [])
   return (
     <>
       {/* life */}
-      <div className="container"style={{ marginTop: "6rem" }}>
+      <div className="container" style={{ marginTop: "6rem" }}>
         <div className="row">
           <div className="col-md-6 d-flex justify-content-center align-items-center text-start">
             <div className="col-md-6 text-white">
               <h5>Events....... </h5>
               <h2> Our Moments</h2>
-              <p className='' style={{textAlign:"justify"}}>It Takes a lot of hard to make something simple, to truly  understand the underlying
+              <p className='' style={{ textAlign: "justify" }}>It Takes a lot of hard to make something simple, to truly  understand the underlying
                 challenges and come up with  elegant solutions</p>
             </div>
           </div>
@@ -93,9 +105,9 @@ export default function Life() {
               <div class="card bg-transparent text-start img-fluid ">
                 <img src={world} class="card-img-top" alt="..." />
                 <div class="card-body">
-                <p class="fs-6">February25,2023</p>
+                  <p class="fs-6">February25,2023</p>
                   <h5 class="card-title text-white">Blog Title</h5>
-                  <p class="card-text" style={{textAlign:"justify"}}>This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text" style={{ textAlign: "justify" }}>This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
               </div>
             </div>
@@ -103,9 +115,9 @@ export default function Life() {
               <div class="card bg-transparent text-start img-fluid ">
                 <img src={key} class="card-img-top" alt="..." />
                 <div class="card-body">
-                <p class="fs-6">February25,2023</p>
+                  <p class="fs-6">February25,2023</p>
                   <h5 class="card-title text-white">Blog Title</h5>
-                  <p class="card-text" style={{textAlign:"justify"}}>This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text" style={{ textAlign: "justify" }}>This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
               </div>
             </div>
@@ -113,9 +125,9 @@ export default function Life() {
               <div class="card bg-transparent text-start img-fluid">
                 <img src={leader} class="card-img-top" alt="..." />
                 <div class="card-body">
-                <p class="fs-6">February25,2023</p>
+                  <p class="fs-6">February25,2023</p>
                   <h5 class="card-title text-white">Blog Title</h5>
-                  <p class="card-text" style={{textAlign:"justify"}}>This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text" style={{ textAlign: "justify" }}>This is a longer card with supporting text below as a natural lead-in to additional content.</p>
                 </div>
               </div>
             </div>
@@ -125,22 +137,22 @@ export default function Life() {
 
         <div className="row mt-5">
           <div className="col-md-6 d-flex justify-content-center img-fluid">
-          <a className="navbar-brand" href="#">
-                    <img
-                      src={award}
-                      alt=""
-                      width="400rem"
-                      height='80%'
-                      className="img-fluid"
-                    />{" "}
-                  </a>
+            <a className="navbar-brand" href="#">
+              <img
+                src={award}
+                alt=""
+                width="400rem"
+                height='80%'
+                className="img-fluid"
+              />{" "}
+            </a>
             {/* <img className='img-Group' src={award} alt="" height='80%' /> */}
           </div>
           <div className="col-md-6 mt-5 text-start">
             <h5>Success Stories________</h5>
             <h2>Awards</h2>
             <div className='d-flex justify-content-center'>
-              <p className=''style={{textAlign:"justify"}}>Lorem ipsum dolor utem aut rationeob saepe vitae nam, sit ipsa minus animi ducimus debitis odit, facere unde qui cum explicabo tempore laudantium placeat amet! Est eligendi qui ipsa a, eius neque eveniet nulla itaque ducimus esse, odit adipisci.</p>
+              <p className='' style={{ textAlign: "justify" }}>Lorem ipsum dolor utem aut rationeob saepe vitae nam, sit ipsa minus animi ducimus debitis odit, facere unde qui cum explicabo tempore laudantium placeat amet! Est eligendi qui ipsa a, eius neque eveniet nulla itaque ducimus esse, odit adipisci.</p>
             </div>
 
           </div>
@@ -149,13 +161,36 @@ export default function Life() {
 
         <div className='text-center'>
           <h4> Portfolio</h4>
-          <div className='d-flex justify-content-evenly'>
+          {/* <div className='d-flex justify-content-evenly'>
             <div><a href="#" className='text-light '>All</a></div>
             <div><a href="#" className='text-light '>Events</a></div>
             <div><a href="#" className='text-light '>News</a></div>
             <div><a href="#" className='text-light '>Awards</a></div>
             <div><a href="#" className='text-light '>Media</a></div>
-          </div>
+          </div> */}
+
+          <Tabs
+            defaultActiveKey="All"
+            id="justify-tab-example"
+            className="mb-3 justify-content-center"
+            justify
+          >
+            <Tab eventKey="All" title="All">
+
+            </Tab>
+            <Tab eventKey="Events" title="Events">
+              Tab content for Profile
+            </Tab>
+            <Tab eventKey="News" title="News">
+              Tab content for Loooonger Tab
+            </Tab>
+            <Tab eventKey="Awards" title="Awards">
+              Tab content for Loooonger Tab
+            </Tab>
+            <Tab eventKey="Media" title="Media">
+              Tab content for Loooonger Tab
+            </Tab>
+          </Tabs>
 
         </div>
         <div className="d-flex justify-content-space-evenly mb-5 mt-5">
